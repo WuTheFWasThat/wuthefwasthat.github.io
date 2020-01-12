@@ -9,3 +9,6 @@ To run locally:
 # TODO
 
 - change workflow to use _drafts instead of git branches?
+
+to build other sub-sites
+mv ../send_a_damned_message/build/* send-a-damned-message/
