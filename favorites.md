@@ -87,6 +87,9 @@ Movies
 
 Shows
 - Avatar the last Airbender
+- Game of Thrones
+- Watchmen
+- Death Note
 - Silicon Valley
 - The Office
 - This Is Us
