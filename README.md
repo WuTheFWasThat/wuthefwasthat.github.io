@@ -11,4 +11,5 @@ To run locally:
 - change workflow to use _drafts instead of git branches?
 
 to build other sub-sites
-mv ../send_a_damned_message/build/* send-a-damned-message/
+cp ../send_a_damned_message/build/* send-a-damned-message/
+cp ../bearcat-game/static/* bearcat-game/
