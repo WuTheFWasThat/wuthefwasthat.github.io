@@ -11,15 +11,18 @@ permalink: /papers/
 
   Alec Radford\*, **Jeffrey Wu\***, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever
 
+- [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf) (2020)
+
+  Tom B. Brown\*, Benjamin Mann\*, Nick Ryder\*, Melanie Subbiah\*,
+  Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam,
+  Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger,
+  Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, **Jeffrey Wu**,
+  Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess,
+  Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
+
 - [Fine-Tuning Language Models from Human Preferences](https://arxiv.org/abs/1909.08593) (2019)
 
   Daniel M. Ziegler\*, Nisan Stiennon\*, **Jeffrey Wu**, Tom B. Brown, Alec Radford, Dario Amodei, Paul Christiano, Geoffrey Irving
-
-- [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf) (2020)
-
-  Tom B. Brown\∗, Benjamin Mann\∗, Nick Ryder\∗, Melanie Subbiah\∗, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger,
-  Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, **Jeffrey Wu**, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner,
-  Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
 
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) (2020)
 
