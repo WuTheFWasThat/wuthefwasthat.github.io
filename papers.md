@@ -24,6 +24,10 @@ permalink: /papers/
 
   Daniel M. Ziegler\*, Nisan Stiennon\*, **Jeffrey Wu**, Tom B. Brown, Alec Radford, Dario Amodei, Paul Christiano, Geoffrey Irving
 
+- [Generative Pretraining from Pixels](https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf) (2020)
+
+   Mark Chen, Alec Radford, Rewon Child, **Jeff Wu**, Heewoo Jun, Prafulla Dhariwal, David Luan, Ilya Sutskever
+
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) (2020)
 
   Jared Kaplan\*, Sam McCandlish\*, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, **Jeffrey Wu**, Dario Amodei
