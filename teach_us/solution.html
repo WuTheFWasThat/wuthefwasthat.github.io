@@ -1,0 +1,395 @@
+<html>
+   <link rel="stylesheet" type="text/css" href="index.css" />
+  <body style='text-align: left;'>
+    <h1 class="title center">
+      TEACH US
+    </h1>
+
+    <p>
+    First, the solver should notice several things:
+    <ul>
+      <li>
+      The puzzle refers to the card game Tichu.
+      There are several hints at this: the pictures of the special cards and suits, the phrase "teach us", and the game logs themselves.
+      </li>
+      <li>
+      The images in the poem correspond to clue images within the rounds.
+      The exception is round 1, which then can be presumed to correspond with the first line of the poem.
+      </li>
+    </ul>
+
+    Next, we can infer a bit about the game logs' format:
+    <ul>
+      <li>
+      Each "word" within a line corresponds to a play, and each line corresponds to a trick.
+      </li>
+      <li>
+      Dots mean pass.  Dashes mean forced pass.
+      </li>
+      <li>
+      Within a play, lower value cards are listed first, except for full houses, in which case the triple is always first.
+      </li>
+      <li>
+      Choices besides the choice of what card to play are indicated in parentheses.
+      This includes the mahjong wish, phoenix wild card usage, the dragon pass.
+      </li>
+      <li>
+      The final line indicates scoring, with the two un-bolded columns indicating the round scores (the bolded columns being totals).
+      </li>
+    </ul>
+    <p>
+
+    </p>
+
+    <h2>
+      Round 1
+    </h2>
+    <div style='width: 100%;'>
+    <p>
+    The text is given away by the first line of the poem, so
+    this round is to help teach you the basic mechanic.
+    Each hand/number pair encodes a letter; the main puzzle is to discover the encoding scheme.
+    </p>
+
+    <p>
+    First, notice that the number is always in the range 1-14.
+    Since a Tichu hand consists of 14 cards, this suggests that the numbers correspond to indices within a hand.
+    Indexing gives a card, and we can associate (non-special) cards with the numbers 1-13.
+    The image hand direction will give another bit, together making for 26 possibilities.
+    </p>
+
+    <p>
+    Given the information presented, the most natural indexing scheme is order of play.
+    However, it's not clear in which of the four hands we should index.
+    </p>
+
+    <p>
+    Knowing the clued phrase, some experimentation yields:
+    <ul>
+      <li>
+      When the hand image points up, we should index into the hand of the first player who went out (player 3).
+      </li>
+      <li>
+      When the hand image points down, we should index into the hand of their partner (third to go out, player 1).
+      </li>
+      <li>
+      On the top row, a hand pointing down means second half of alphabet.
+      </li>
+      <li>
+      On the bottom row, a hand pointing up means second half of alphabet.
+      </li>
+    </ul>
+    This fully specifies a way to extract a letter.
+    For example, on the top row, we had a 5 and a downwards-facing hand.
+    This means to look at the 5th card played by player 1, which was a 7.
+    A downwards-facing hand on the top row means to add 13, yielding 20.
+    The 20th letter of the alphabet is T.
+    Continuing like that, one recovers the first line of the poem:
+    </div>
+    <table>
+      <tr><td><table>
+      <tr>
+        <th>T</th>
+        <th>E</th>
+        <th>A</th>
+        <th>C</th>
+        <th>H</th>
+        <th> </th>
+        <th>U</th>
+        <th>S</th>
+      </tr>
+      <tr class="clue">
+        <td class="hand2">5</td>
+        <td class="hand1">10</td>
+        <td class="hand1">1</td>
+        <td class="hand1">4</td>
+        <td class="hand1">13</td>
+        <td style="width: auto">&nbsp;&nbsp;</td>
+        <td class="hand2">6</td>
+        <td class="hand2">4</td>
+      </tr>
+      </table></td></tr>
+      <tr><td><table>
+      <tr class="clue">
+        <td class="hand2">7</td>
+        <td class="hand1">1</td>
+        <td style="width: auto">&nbsp;&nbsp;</td>
+        <td class="hand2">14</td>
+        <td class="hand2">7</td>
+        <td class="hand2">4</td>
+        <td class="hand2">3</td>
+      </tr>
+      <tr>
+        <th>I</th>
+        <th>N</th>
+        <th> </th>
+        <th>L</th>
+        <th>I</th>
+        <th>F</th>
+        <th>E</th>
+      </tr>
+      </table></td></tr>
+    </table>
+
+    <h2>
+      Round 2
+    </h2>
+    <div style='width: 100%;'>
+      This round was mainly to make sure the solver could execute the mechanic.
+      Doing so yields the clue phrases <b>lucky</b> and <b>skilled</b>.
+    </div>
+
+    <h2>
+      Round 3
+    </h2>
+    <div style='width: 100%;'>
+      In this round, we must for the first time fill in cards to make the round sensible.
+
+      <ul>
+        <li>
+        First, we can see by counting known scores that the protagonist team is players 2 and 4 (where 1 is the player with the mahjong).
+        By counting the number of points the opponents score, we see that they must score exactly 5 additional points.
+        The only possibility for this is for the unknown card in trick 3 to be a 5.
+        Their remaining tricks must not earn them points.
+      </li>
+      <li>
+      The first tractor in trick 2 cannot contain a pair of fives, and so must contain a pair of threes.
+      </li>
+      <li>
+      Also, by counting the total cards played, we see that only 1 card in the deck is left unplayed.
+      </li>
+      <li>
+      The third play in trick 2 must be either a bomb or tractor.
+      The only possibility for bombs is a bomb of 4s.  In this case, the earlier tractor in that trick is with 2s and 3s.
+      Now there remain a single 2 and 3 left.  But they are unplayable, since there is no 4 to make a straight, so this is impossible.
+      Thus the play must be a tractor, and we see by process of elimination it must be 99TT.
+      </li>
+      <li>
+      Now, the play of 6 cards, by process of elimination, cannot be consecutive pairs.  The only possible straight is 234567.
+      </li>
+      <li>
+      The triple in trick 8 now must be of 4s.
+      </li>
+      <li>
+      What remains is straightforward.
+      </ul>
+
+    This yields the following result:
+    <table>
+      <tr><td class="log" colspan="999">
+        <div>
+        <p>
+        1(A) A . . .<br/>
+        <b>2233</b> 5566 . . <b>99TT</b> . . .<br/>
+        <b>5</b> 7 . 8 Q A . . .<br/>
+        88 . . JJ QQ . . .<br/>
+        JP(J) . . .<br/>
+        D(R) . . -<br/>
+        d -<br/>
+        <b>444</b> . - .<br/>
+        6789T . - <b>9TJQK</b> . . -<br/>
+        <b>234567</b> . . -<br/>
+        KK AA . - .<br/>
+        2 K - . .<br/>
+        - - 3<br/>
+        <br/>
+        </p>
+        </div>
+      </td></tr>
+    </table>
+      Then, extracting yields the clue phrases <b>wise</b> and <b>good-willed</b>.
+
+  </div>
+
+    <h2>
+      Round 4
+    </h2>
+    Again, we fill in the cards:
+        <div style='width: 100%;'>
+          <ul>
+            <li>
+            First, notice of the 5 unplayed cards, four of them are the 4 special cards.
+            Dog is recognizable by the trick pattern, and the rest are recognizable by the choice in parentheses.
+            We will assume no special cards, throughout.
+            </li>
+            <li>
+            Notice that in the second trick, both hands must be full houses, since no straight (bomb) can end in a 4.
+            </li>
+            <li>
+            In trick 5, the only possibilities are 445566, and 456789.
+            456789 is impossible since a fourth 4 and 9 prevents the 7-card straight from being possible.
+            Thus it is 445566.
+            </li>
+            <li>
+            Since all 4s are used, the straight must be 56789TJ.
+            </li>
+            <li>
+            By process of elimination, the card in trick 6 is an A
+            </li>
+            <li>
+            Now, by process of elimination, the full houses are 7s over 9s, and 8s over 4s.
+            </li>
+            <li>
+            So of the 2 remaining aces, at least one is played.
+            In fact, only there is only 1 valid spot, in the last trick.
+            And the last unplayed card (besides the special cards) is also an ace.
+            </li>
+            <li>
+            The last 3 cards are straightforward.
+            </li>
+            </ul>
+
+      And so we have
+    <table>
+      <tr><td class="log" colspan="999">
+        <div>
+        <p>
+        222333 . . .<br/>
+        <b>7779</b>9 <b>8884</b>4 . . .<br/>
+        <b>2</b> <b>3</b> <b>9</b> A . . - - QQQQ . . .<br/>
+        TTT JJJ . . .<br/>
+        4<b>45566</b> . . .<br/>
+        6 9 . <b>A</b> - KKKK . - .<br/>
+        <b>56789TJ</b> . - .<br/>
+        <b>A</b><br/>
+        <br/>
+        </p>
+        </div>
+      </td></tr>
+    </table>
+      Then, extracting yields the clue phrases <b>husband</b> and <b>wife</b>.
+
+</div>
+
+
+    <h2>
+      Round 5
+    </h2>
+    Again, we fill in the cards:
+        <div style='width: 100%;'>
+          <ul>
+            <li>
+            First, notice that player 2 plays a ten in trick 9.  Thus they must play a ten in trick 1.
+            </li>
+            <li>
+            Now, the last trick can have no more tens, and thus is a straight, 6789T.
+            </li>
+            <li>
+            Trick 2 also can't have more tens, and thus is a straight, 567P(8)9T
+            </li>
+            <li>
+            Trick 7 contains a bomb, either jacks or aces.
+            Suppose it were aces.  Then trick 9 has JQK, trick 1 has JK, and so trick 11 is impossible.
+            Thus it is jacks.
+            </li>
+            <li>
+            Trick 9 is thus Q K A, and so trick 1 has K A, and so trick 11 an A
+            </li>
+            <li>
+            The remaining cards are 223344556677888.
+            There can be at most two full houses from those cards, and so the second play in trick 3 must be a straight.
+            Thus it contains 456.
+            This means all 6s are used, so the first play cannot be a full house either.
+            Thus it is a straight, 23456.
+            </li>
+            <li>
+            So trick 6 must be 7788
+            </li>
+            <li>
+            Lastly, the trick 3 straight must be 23456, a straight flush bomb!
+            </li>
+            </ul>
+      And so we have
+    <table>
+      <tr><td class="log" colspan="999">
+        <div>
+        <p>
+        1(T) <b>T</b> <b>K</b> <b>A</b> . . .<br/>
+        <b>567</b>P(<b>8</b>)<b>9</b>T . . .<br/>
+        <b>2345</b>6 . . <b>23456</b> . . .<br/>
+        d -<br/>
+        44 99 . . QQ . . .<br/>
+        <b>7788</b> . . .<br/>
+        KK <b>JJJJ</b> . . .<br/>
+        2233 . . .<br/>
+        T <b>Q</b> <b>K</b> <b>A</b> . . .<br/>
+        D(L) . . .<br/>
+        5 Q <b>A</b> . - .<br/>
+        <b>6789</b>T<br/>
+        <br/>
+        </div>
+      </td></tr>
+    </table>
+      And extracting yields the clue phrases <b>grand vows</b> and <b>fulfilled</b>.
+    </div>
+
+    <h2>
+      Putting it together
+    </h2>
+
+    With all this, we have the final solution:
+    <table class="poem">
+      <tr>
+        <td></td>
+        <td>Teach us,</td>
+        <td></td>
+        <td>in life,</td>
+      </tr>
+      <tr>
+        <td class="firstcol">to be</td>
+        <td >
+          <span style='border-bottom: 1px solid gray;'>
+          lucky
+          </span>
+        </td>
+        <td>and</td>
+        <td>
+          <span style='border-bottom: 1px solid gray;'>
+          skilled</span>,
+        </td>
+      </tr>
+      <tr>
+        <td class="firstcol">to be</td>
+        <td>
+          <span style='border-bottom: 1px solid gray;'>
+          wise
+          </span>
+        </td>
+        <td>and</td>
+        <td>
+          <span style='border-bottom: 1px solid gray;'>
+          good-willed</span>,
+        </td>
+      </tr>
+      <tr>
+        <td class="firstcol">as</td>
+        <td>
+          <span style='border-bottom: 1px solid gray;'>
+          husband
+          </span>
+        </td>
+        <td>and</td>
+        <td>
+          <span style='border-bottom: 1px solid gray;'>
+          wife</span>,
+        </td>
+        <!--td>____,</td-->
+      </tr>
+      <tr>
+        <td class="firstcol">to have</td>
+        <td>
+          <span style='border-bottom: 1px solid gray;'>
+          grand vows
+          </span>
+        </td>
+        <td></td>
+        <td>
+          <span style='border-bottom: 1px solid gray;'>
+          fulfilled</span>.
+        </td>
+      </tr>
+    </table>
+
+  </body>
+
+</html>

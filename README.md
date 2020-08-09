@@ -13,3 +13,4 @@ To run locally:
 to build other sub-sites
 cp ../send_a_damned_message/build/* send-a-damned-message/
 cp ../bearcat-game/static/* bearcat-game/
+cp -r ../teach_us/* teach_us/
