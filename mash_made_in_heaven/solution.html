@@ -1,0 +1,384 @@
+<html>
+   <link rel="stylesheet" type="text/css" href="index.css" />
+  <body style='text-align: left;'>
+
+
+First, one can solve for the ingredient clues, yielding alphabetized answers.  We also keep the associated number in the clue (ignoring units), and convert it to a letter.
+
+    <br/>
+    <br/>
+
+    <table>
+      <tr>
+        <th>Quantity given</th>
+        <th>Associated letter</th>
+        <th>Clue given</th>
+        <th>Answer</th>
+      </tr>
+      <tr class="clue">
+        <td>14</td>
+        <td>N</td>
+        <td>a well-connected actor</td>
+        <td>BACON</td>
+      </tr>
+      <tr class="clue">
+        <td>13</td>
+        <td>M</td>
+        <td>a tool for flattery</td>
+        <td>BUTTER</td>
+      </tr>
+      <tr class="clue">
+        <td>20</td>
+        <td>T</td>
+        <td>incremental bee hives?</td>
+        <td>CHIVES</td>
+      </tr>
+      <tr class="clue">
+        <td>20</td>
+        <td>T</td>
+        <td>something corny</td>
+        <td>CORN</td>
+      </tr>
+      <tr class="clue">
+        <td>1</td>
+        <td>A</td>
+        <td>half of half and half</td>
+        <td>CREAM</td>
+      </tr>
+      <tr class="clue">
+        <td>19</td>
+        <td>S</td>
+        <td>long walk on the beach</td>
+        <td>DATE</td>
+      </tr>
+      <tr class="clue">
+        <td>18</td>
+        <td>R</td>
+        <td>things in a risky basket</td>
+        <td>EGGS</td>
+      </tr>
+      <tr class="clue">
+        <td>25</td>
+        <td>Y</td>
+        <td>vampire repellent</td>
+        <td>GARLIC</td>
+      </tr>
+      <tr class="clue">
+        <td>4</td>
+        <td>D</td>
+        <td>Fred's dancing partner</td>
+        <td>GINGER</td>
+      </tr>
+      <tr class="clue">
+        <td>9</td>
+        <td>I</td>
+        <td>flying Pokemon's staff</td>
+        <td>LEEK</td>
+      </tr>
+      <tr class="clue">
+        <td>8</td>
+        <td>H</td>
+        <td>things life gives you</td>
+        <td>LEMONS</td>
+      </tr>
+      <tr class="clue">
+        <td>15</td>
+        <td>O</td>
+        <td>calcium compound</td>
+        <td>LIME</td>
+      </tr>
+      <tr class="clue">
+        <td>13</td>
+        <td>M</td>
+        <td>utterly misheard liquid?</td>
+        <td>MILK</td>
+      </tr>
+      <tr class="clue">
+        <td>5</td>
+        <td>E</td>
+        <td>a thing to make you cry</td>
+        <td>ONION</td>
+      </tr>
+      <tr class="clue">
+        <td>4</td>
+        <td>D</td>
+        <td>gamer rage</td>
+        <td>SALT</td>
+      </tr>
+      <tr class="clue">
+        <td>5</td>
+        <td>E</td>
+        <td>those rooted on the couch (informally)</td>
+        <td>SPUDS</td>
+      </tr>
+      <tr class="clue">
+        <td>1</td>
+        <td>A</td>
+        <td>sound of complaint?</td>
+        <td>WINE</td>
+      </tr>
+    </table>
+
+    <br/>
+
+Now, we note that each instruction line hints at one of the answers, and a word which is one letter off from it.
+Ordering by instruction line, we have the following:
+    <br/>
+    <br/>
+
+    <table>
+      <tr>
+        <th>Letter from quantity</th>
+        <th>Answer</th>
+        <th>Clued word</th>
+        <th>Ingredient letter</th>
+        <th>Replacement letter</th>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>CREAM</td>
+        <td>DREAM</td>
+        <td>C</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>SALT</td>
+        <td>SILT</td>
+        <td>A</td>
+        <td>I</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>GINGER</td>
+        <td>LINGER</td>
+        <td>G</td>
+        <td>L</td>
+      </tr>
+      <tr>
+        <td>T</td>
+        <td>CHIVES</td>
+        <td>CHILES</td>
+        <td>V</td>
+        <td>L</td>
+      </tr>
+      <tr>
+        <td>H</td>
+        <td>LEMONS</td>
+        <td>DEMONS</td>
+        <td>L</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>Y</td>
+        <td>GARLIC</td>
+        <td>GAELIC</td>
+        <td>R</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>M</td>
+        <td>BUTTER</td>
+        <td>BATTER</td>
+        <td>U</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>E</td>
+        <td>SPUDS</td>
+        <td>STUDS</td>
+        <td>P</td>
+        <td>T</td>
+      </tr>
+      <tr>
+        <td>T</td>
+        <td>CORN</td>
+        <td>HORN</td>
+        <td>C</td>
+        <td>H</td>
+      </tr>
+      <tr>
+        <td>O</td>
+        <td>LIME</td>
+        <td>DIME</td>
+        <td>L</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>R</td>
+        <td>EGGS</td>
+        <td>EGOS</td>
+        <td>G</td>
+        <td>O</td>
+      </tr>
+      <tr>
+        <td>E</td>
+        <td>ONION</td>
+        <td>UNION</td>
+        <td>O</td>
+        <td>U</td>
+      </tr>
+      <tr>
+        <td>M</td>
+        <td>MILK</td>
+        <td>SILK</td>
+        <td>M</td>
+        <td>S</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>WINE</td>
+        <td>PINE</td>
+        <td>W</td>
+        <td>P</td>
+      </tr>
+      <tr>
+        <td>I</td>
+        <td>LEEK</td>
+        <td>LEAK</td>
+        <td>E</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>N</td>
+        <td>BACON</td>
+        <td>BARON</td>
+        <td>C</td>
+        <td>R</td>
+      </tr>
+      <tr>
+        <td>S</td>
+        <td>DATE</td>
+        <td>MATE</td>
+        <td>D</td>
+        <td>M</td>
+      </tr>
+    </table>
+
+
+<br/>
+This reveals two clue phrases:
+<br/>
+<ul>
+  <li>
+ "DILL DEATH DO US PARM", which hints at marriage vows.
+  </li>
+  <li>
+ "ADD THYME TO REMAINS", which hints at the final step, which is to take the time-related numbers in the instructions and add them to the displaced letters.
+  </li>
+</ul>
+
+    <br/>
+
+    <table>
+      <tr>
+        <th>Remaining (ingredient) letter</th>
+        <th>Time number</th>
+        <th>Result</th>
+      </tr>
+      <tr>
+        <td>C</td>
+    <td> 13 </td>
+    <td> P </td>
+      </tr>
+      <tr>
+        <td>A</td>
+    <td> 14 </td>
+    <td> O </td>
+      </tr>
+      <tr>
+        <td>G</td>
+    <td> 13 </td>
+    <td> T </td>
+      </tr>
+      <tr>
+        <td>V</td>
+    <td> 5 </td>
+    <td> A </td>
+      </tr>
+      <tr>
+        <td>L</td>
+    <td> 8 </td>
+    <td> T </td>
+      </tr>
+      <tr>
+        <td>R</td>
+    <td> 23 </td>
+    <td> O </td>
+      </tr>
+      <tr>
+        <td>U</td>
+    <td> 10 </td>
+    <td> E </td>
+      </tr>
+      <tr>
+        <td>P</td>
+    <td> 3 </td>
+    <td> S </td>
+      </tr>
+      <tr>
+        <td>C</td>
+    <td> 6 </td>
+    <td> I </td>
+      </tr>
+      <tr>
+        <td>L</td>
+    <td> 2 </td>
+    <td> N </td>
+      </tr>
+      <tr>
+        <td>G</td>
+    <td> 5 </td>
+    <td> L </td>
+      </tr>
+      <tr>
+        <td>O</td>
+    <td> 0 </td>
+    <td> O </td>
+      </tr>
+      <tr>
+        <td>M</td>
+    <td> 9 </td>
+    <td> V </td>
+      </tr>
+      <tr>
+        <td>W</td>
+    <td> 8 </td>
+    <td> E </td>
+      </tr>
+      <tr>
+        <td>E</td>
+    <td> 2 </td>
+    <td> G </td>
+      </tr>
+      <tr>
+        <td>C</td>
+    <td> 2 </td>
+    <td> E </td>
+      </tr>
+      <tr>
+        <td>D</td>
+    <td> 16 </td>
+    <td> T </td>
+      </tr>
+    </table>
+
+    <br/>
+    <br/>
+    This reveals the clue phrase:
+    <br/>
+    <br/>
+    "POTATOES IN LOVE GET"
+    <br/>
+    <br/>
+    From this phrase and the hints about herb puns and marriage, the answer is:
+    <br/>
+    <br/>
+    <h4 style="margin-top: 0px">
+    ROSE-MARRIED
+    </h4>
+
+
+  </body>
+
+</html>
