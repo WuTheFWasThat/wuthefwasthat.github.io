@@ -11,7 +11,6 @@ Here are some projects I've worked on outside of work:
 
 - **vimflowy** [[demo](http://vimflowy.netlify.com)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
   a Workflowy-like productivity tool with vim keybindings
-  my master's thesis project, a probabilistic programming language (and general inference algorithm).
 
 {::comment}
 
@@ -32,7 +31,8 @@ Here are some projects I've worked on outside of work:
 
 *Puzzles*
 
-- **Teach Us** [[link](https://www.wuthejeff.com/teach_us)] [[source](https://github.com/WuTheFWasThat/teach_us)]: a puzzle, written with my girlfriend as a wedding card for some good friends
+- **Teach Us** [[link](https://www.wuthejeff.com/teach_us)]: a puzzle, written with my girlfriend as a wedding card for some good friends
+- **Mash Made In Heaven** [[link](https://www.wuthejeff.com/mash_made_in_heaven)]: a puzzle, written with my girlfriend as a wedding card for my sister
 
 *Research*
 
@@ -43,6 +43,9 @@ Here are some projects I've worked on outside of work:
 
 - **hanabi.rs** [[source](https://github.com/WuTheFWasThat/hanabi.rs)]: a [Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) simulator along with the best-performing algorithm I know of
 - **PyChurch** [[source](https://github.com/WuTheFWasThat/Church-interpreter)] and [[thesis writeup](https://github.com/WuTheFWasThat/PyChurch/blob/master/papers/MEng%20thesis.pdf)], implementations of a probabilistic programing language
+{::comment}
+  my master's thesis project, a probabilistic programming language (and general inference algorithm).
+{:/comment}
 
 *Other*
 
