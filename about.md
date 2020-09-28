@@ -19,7 +19,7 @@ In my free time, I like to:
 - Work on a variety of [side projects](/projects).
 - Appreciate things humanity has produced, e.g. reading, playing games, doing puzzles, watching shows, listening to music.
   Here some of [my favorite things](/favorites).
-- Spend time with my fiancée, family, and friends.
+- Spend time with my family and friends.
 
 ## History
 

@@ -25,14 +25,14 @@ Here are some projects I've worked on outside of work:
 
 *Games*
 
-- **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer game I made for my fiance before I proposed
+- **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer game I made for my wife (then girlfriend)
 - **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: a simple puzzle game
-- **EigenSeeClearlyNow** [[link](https://span.bitballoon.com/)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my girlfriend
+- **EigenSeeClearlyNow** [[link](https://span.bitballoon.com/)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my wife
 
 *Puzzles*
 
-- **Teach Us** [[link](https://www.wuthejeff.com/teach_us)]: a puzzle, written with my girlfriend as a wedding card for some good friends
-- **Mash Made In Heaven** [[link](https://www.wuthejeff.com/mash_made_in_heaven)]: a puzzle, written with my girlfriend as a wedding card for my sister
+- **Teach Us** [[link](https://www.wuthejeff.com/teach_us)]: a puzzle, written with my wife as a wedding card for some good friends
+- **Mash Made In Heaven** [[link](https://www.wuthejeff.com/mash_made_in_heaven)]: a puzzle, written with my wife as a wedding card for my sister
 
 *Research*
 
