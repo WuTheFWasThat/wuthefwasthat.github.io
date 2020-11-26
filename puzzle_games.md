@@ -5,13 +5,14 @@ Roughly ordered by how much I enjoyed them
 ### Amazing
 - Baba is You
 - Braid
-- Recursed
-- [Blocks with Letters On](http://www.kongregate.com/games/morpheme/blocks-with-letters-on)
-- Stephen's Sausage Roll
+- Recursed (and The Ice Palace DLC)
 
 ### Excellent
+- [Blocks with Letters On](http://www.kongregate.com/games/morpheme/blocks-with-letters-on)
+- Stephen's Sausage Roll
 - [Manufactoria](http://pleasingfungus.com/Manufactoria/)
 - [Jelly No Puzzle](http://heated.github.io/jelly)
+- A Monster's Expedition
 
 ### Quite good
 - Snakebird

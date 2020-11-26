@@ -11,9 +11,11 @@ Also, hope you find some new gems!
 
 ## Games
 
-I primarily play [puzzle games](puzzle_games.md) and Super Smash Brothers (Melee and Ultimate).
-I also enjoy many board and card games, most notably Dominion.
+I primarily play [puzzle games](puzzle_games.md).
+I also enjoy many board and card games, most notably deck-building games (check out [Engine](https://www.engine-game.com), a game my friend made).
+As per MIT tradition, I occasionally do puzzle hunts, though I'm not that great at them.
 I play some DDR as well, mainly because it doubles as exercise.
+I also try to stay away from Super Smash Brothers (Melee and Ultimate) due to its addictive properties.
 
 <!--
 - Other board games
@@ -26,6 +28,7 @@ I play some DDR as well, mainly because it doubles as exercise.
   - GOTHS, contact, double contact, category (on a timer)
 -->
 
+<!--
 ## Mystery hunt puzzles
 
 *Disclaimer: haven't done many*
@@ -33,6 +36,7 @@ I play some DDR as well, mainly because it doubles as exercise.
 - [Rime Royal](http://puzzle.cisra.com.au/2011/3D-Rime-Royal.pdf)
 - [Three Colours](http://puzzle.cisra.com.au/2013/5D-Three-Colours.pdf)
 - [Earth Shattering](https://galacticpuzzlehunt.com/puzzle/earth-shattering)
+-->
 
 ## Writings
 
@@ -107,7 +111,7 @@ Classical
 - Tchaikovsky's 6th symphony
 - Symphonic Dances from Westside Story
 - Piazzolla
-- Claude Bolling
+- Sentimentale by Claude Bolling
 
 Pop
 - *Bohemian Rhaspody* by Queen
