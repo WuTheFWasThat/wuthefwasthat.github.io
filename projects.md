@@ -9,7 +9,7 @@ Here are some projects I've worked on outside of work:
 
 *Tools*
 
-- **vimflowy** [[demo](http://vimflowy.netlify.com)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
+- **vimflowy** [[demo](https://wuthejeff.com/vimflowy)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
   a Workflowy-like productivity tool with vim keybindings
 
 {::comment}
