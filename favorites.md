@@ -90,14 +90,16 @@ Movies
 - Zootopia
 
 Shows
-- Avatar the last Airbender
 - Game of Thrones
 - Watchmen
 - Death Note
+- Avatar the last Airbender
+
 - Silicon Valley
 - The Office
 - This Is Us
 - Arrested Development
+- Mr. Robot
 
 ## Music
 
