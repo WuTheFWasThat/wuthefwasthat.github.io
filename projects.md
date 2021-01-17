@@ -53,6 +53,7 @@ Here are some projects I've worked on outside of work:
 *Other*
 
 - **wuthejeff.com** [[source](https://github.com/WuTheFWasThat/wuthefwasthat.github.io)]: this website, of course!
+
 {::comment}
 - **Midnight Therapy** [[source](https://github.com/WuTheFWasThat/midnighttherapy)]: a set of scripts to assist players of Pathery, an online (tower defense inspired) mazing game
 {:/comment}
