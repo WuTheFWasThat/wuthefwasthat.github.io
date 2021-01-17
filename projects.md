@@ -21,6 +21,9 @@ Here are some projects I've worked on outside of work:
   I joined as second employee at a company building an online development environment aimed at scientific computing and education use cases.
   I worked there almost 4 years before the company was [acquired by Udacity](https://www.classcentral.com/report/udacity-acquires-terminal-com/).
 
+- **plotserver** [[source](https://github.com/WuTheFWasThat/plotserver)]
+  a small app for plotting results of ML runs
+
 {:/comment}
 
 *Games*
