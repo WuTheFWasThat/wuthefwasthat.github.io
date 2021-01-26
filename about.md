@@ -18,7 +18,7 @@ In my free time, I like to:
   I'd like to say I think about all kinds of worldly and mathematical topics, but it's largely just computer science and technology.
 - Work on a variety of [side projects](/projects).
 - Appreciate things humanity has produced, e.g. reading, playing games, doing puzzles, watching shows, listening to music.
-  Here some of [my favorite things](/favorites).
+  Here are some of [my favorite things](/favorites).
 - Spend time with my family and friends.
 
 ## History
