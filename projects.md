@@ -12,17 +12,20 @@ Here are some projects I've worked on outside of work:
 - **vimflowy** [[demo](https://wuthejeff.com/vimflowy)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
   a Workflowy-like productivity tool with vim keybindings
 
-{::comment}
-
 - **tapystry** [[source](https://github.com/WuTheFWasThat/tapystry)]
   a small library for handling side effects in python, inspired by [redux-saga](https://github.com/redux-saga/redux-saga)
+
+- **plotserver** [[source](https://github.com/WuTheFWasThat/plotserver)]
+  a small app for plotting results of ML runs
+
+- **lesser** [[source](https://github.com/WuTheFWasThat/lesser)]
+  a tiny library for manipulating data (alternative to pandas)
+
+{::comment}
 
 - **Terminal.com**
   I joined as second employee at a company building an online development environment aimed at scientific computing and education use cases.
   I worked there almost 4 years before the company was [acquired by Udacity](https://www.classcentral.com/report/udacity-acquires-terminal-com/).
-
-- **plotserver** [[source](https://github.com/WuTheFWasThat/plotserver)]
-  a small app for plotting results of ML runs
 
 {:/comment}
 

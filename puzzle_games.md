@@ -28,6 +28,8 @@ Roughly ordered by how much I enjoyed them
 - [So Broken](https://coreymartin.itch.io/sobroken)
 
 <!--
+- [Pushing It](https://www.puzzlescript.net/play.html?p=2fe3172d2b9fe684977d184f1b6226d5)
+- [Chicken Chicken Crocodile](https://pancelor.itch.io/chickenswamp)
 To finish one day..
 - Trainyard
 - [Vext Edit](https://www.puzzlescript.net/play.html?p=9eb8f8f3df4efb450b798a279eeba2e0)

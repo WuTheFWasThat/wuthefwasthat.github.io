@@ -49,6 +49,7 @@ Short stories
 - [Scott Alexander's story of alchemy](http://slatestarcodex.com/2017/11/09/ars-longa-vita-brevis/)
 - *The Moral Virologist* by Greg Egan
 - *Learning to Be Me* by Greg Egan
+- [Forward Pass](http://karpathy.github.io/2021/03/27/forward-pass/) by Andrej Karpathy
 
 Books
 - *GEB* by Douglas Hofstadter
