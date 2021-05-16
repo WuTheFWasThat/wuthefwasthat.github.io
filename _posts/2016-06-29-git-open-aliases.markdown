@@ -2,7 +2,7 @@
 layout: post
 title:  "Git 'open' aliases"
 date:   2016-06-29 10:18:32 -0700
-categories: programming git
+categories: programming git productivity
 comments: true
 ---
 

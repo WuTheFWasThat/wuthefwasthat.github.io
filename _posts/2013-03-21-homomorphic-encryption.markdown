@@ -2,7 +2,7 @@
 layout: post
 title:  "Homomorphic encryption"
 date:   2013-03-21 10:18:32 -0700
-categories: computer science
+categories: computerscience
 comments: true
 ---
 
