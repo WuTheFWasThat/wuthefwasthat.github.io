@@ -3,9 +3,7 @@
 ### potential posts
 
 -
-applied AI
-- filtering vs finetuning
-  - at a high level i’m concerned that filtering isn’t the right approach, compared to fine-tuning.  if you train a model that doesn’t know anything about racism, but then give it a racist prompt, it seems totally unclear what it will do.  if you train a model that understands racism, then you can finetune it to be anti-racist
+applied AI stuff
 
 - amplification in the wild, imitative generalization in the wild
   - distinctions:  feedback from level i to level i-1, task distribution
