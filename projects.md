@@ -37,8 +37,12 @@ Here are some projects I've worked on outside of work:
 
 *Puzzles*
 
-- **Teach Us** [[link](https://www.wuthejeff.com/teach_us)]: a puzzle, written with my wife as a wedding card for some good friends
+- **Teach Us** [[link](https://www.wuthejeff.com/teach_us)]: a puzzle, written with my wife as a wedding card for friends
 - **Mash Made In Heaven** [[link](https://www.wuthejeff.com/mash_made_in_heaven)]: a puzzle, written with my wife as a wedding card for my sister
+
+{::comment}
+- **sksquared** [[link](https://www.wuthejeff.com/sksquared)]: another puzzle written with my wife as a wedding card for a friend
+{:/comment}
 
 *Research*
 

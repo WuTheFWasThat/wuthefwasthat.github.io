@@ -1,0 +1,21 @@
+.center {
+  text-align: center
+}
+
+ul {
+  text-align: left
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: row;
+}
+.flex-vertical div {
+  flex-basis: 33%;
+  flex-grow: 0;
+}
+
+.clue td {
+  padding-left: 20px;
+}
+

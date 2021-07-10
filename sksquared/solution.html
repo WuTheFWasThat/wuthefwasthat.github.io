@@ -1,0 +1,140 @@
+<html>
+   <link rel="stylesheet" type="text/css" href="index.css" />
+  <body style='text-align: left;'>
+
+
+    First, we solve the clues, which are (slightly non-standard) cryptic crossword clues.
+
+    <br/>
+    <br/>
+
+    <table>
+      <tr>
+        <th>Clue</th>
+        <th>Explanation</th>
+        <th>Answer</th>
+      </tr>
+      <tr class="clue">
+        <td>a cadet earns ones taken from trip over seas</td>
+        <td>anagram(trip + seas - a)</td>
+        <td>STRIPES</td>
+      </tr>
+      <tr class="clue">
+        <td>crippled jedi! run!</td>
+        <td>anagram(jedi + run)</td>
+        <td>INJURED</td>
+      </tr>
+      <tr class="clue">
+        <td>dancing couples meet in cultured city</td>
+        <td>anagram(pairs)</td>
+        <td>PARIS</td>
+      </tr>
+      <tr class="clue">
+        <td>didn't see each other in the fog, it sounds like</td>
+        <td>synonym("didn't see each other"), homophone(mist)</td>
+        <td>MISSED</td>
+      </tr>
+      <tr class="clue">
+        <td>hush! one red tea fits to a tee</td>
+        <td>sh + i + rt, synonym(tee)</td>
+        <td>SHIRT</td>
+      </tr>
+      <tr class="clue">
+        <td>i heard they consumed infinity turnovers</td>
+        <td>homophone(ate), rotated infinity symbol</td>
+        <td>EIGHT</td>
+      </tr>
+      <tr class="clue">
+        <td>i love to run dizzily in a circle</td>
+        <td>anagram(i + love + to + run), synonym(circle)</td>
+        <td>REVOLUTION</td>
+      </tr>
+      <tr class="clue">
+        <td>one's apartment's measurements</td>
+        <td>synonym(one), synonym(apartment), synonym(measurement)</td>
+        <td>UNITS</td>
+      </tr>
+      <tr class="clue">
+        <td>satellite is honey follower</td>
+        <td>synonym(satellite), suffix(honey)</td>
+        <td>MOON</td>
+      </tr>
+      <tr class="clue">
+        <td>situation calls to remove head of property</td>
+        <td>estate - e</td>
+        <td>STATE</td>
+      </tr>
+      <tr class="clue">
+        <td>the beginning of winning and the end of strife?</td>
+        <td>w + ife</td>
+        <td>WIFE</td>
+      </tr>
+      <tr class="clue">
+        <td>the tide always engulfs the best</td>
+        <td>substring(tide always)</td>
+        <td>IDEAL</td>
+      </tr>
+    </table>
+
+    <br/>
+
+    Then, motivated by the theme sksquared (the bride and grooms' shared initials), we must notice that each answer can have an existing letter replaced with a S or K.
+    The way to do this is not unique, but there is only one way to do it that fits the answers into the crossing cell diagrams on the left, such that an S and K cross.  In fact, the S word is always horizontal and the K word vertical.
+    Unfortunately, there was an erratum where PARIS and STATE were interchangeable.
+
+    <br/>
+    <br/>
+
+    <table>
+      <tr>
+        <th>Horizontal word</th>
+        <th>Vertical word</th>
+      </tr>
+      <tr class="clue">
+        <td><b>E</b>IGHT &#8594; <b>S</b>IGHT</td>
+        <td>PAR<b>I</b>S &#8594; PAR<b>K</b>S</td>
+      </tr>
+      <tr class="clue">
+        <td><b>M</b>OON &#8594; <b>S</b>OON</td>
+        <td><b>M</b>ISSED &#8594; <b>K</b>ISSED</td>
+      </tr>
+      <tr class="clue">
+        <td>IN<b>J</b>URED &#8594; IN<b>S</b>URED</td>
+        <td>S<b>H</b>IRT &#8594; S<b>K</b>IRT</td>
+      </tr>
+      <tr class="clue">
+        <td>RE<b>V</b>OLUTION &#8594; RE<b>S</b>OLUTION</td>
+        <td><b>U</b>NITS &#8594; <b>K</b>NITS</td>
+      </tr>
+      <tr class="clue">
+        <td>WI<b>F</b>E &#8594; WI<b>S</b>E</td>
+        <td>STA<b>T</b>E &#8594; STA<b>K</b>E</td>
+      </tr>
+      <tr class="clue">
+        <td>IDEA<b>L</b> &#8594; IDEA<b>S</b></td>
+        <td>STRI<b>P</b>ES &#8594; STRI<b>K</b>ES</td>
+      </tr>
+    </table>
+
+    <br/>
+    <br/>
+
+    Finally, there are two extraction mechanisms
+    <ul>
+      <li>
+    First, by reading from the highlighted cells in the diagrams on the left.
+      </li>
+      <li>
+    Second, by taking the displaced letters and offsetting with the numbers on the right.
+      </li>
+    </ul>
+
+    This gives two phrases:
+    <ul>
+      <li> The horizontal words give INDRED and the vertical words give PIRITS, cluing <b>KINDRED SPIRITS</b></li>
+      <li> The offsets applied to the displaced letters yields <b>SECRET KEYS</b></li>
+    </ul>
+
+  </body>
+
+</html>
