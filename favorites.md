@@ -50,6 +50,7 @@ Short stories
 - *The Moral Virologist* by Greg Egan
 - *Learning to Be Me* by Greg Egan
 - [Forward Pass](http://karpathy.github.io/2021/03/27/forward-pass/) by Andrej Karpathy
+- [Lena](https://qntm.org/mmacevedo) by qnmt
 
 Books
 - *GEB* by Douglas Hofstadter
@@ -100,7 +101,6 @@ Shows
 - The Office
 - This Is Us
 - Arrested Development
-- Mr. Robot
 
 ## Music
 
