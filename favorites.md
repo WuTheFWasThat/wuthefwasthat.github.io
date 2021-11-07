@@ -33,8 +33,8 @@ I also try to stay away from Super Smash Brothers (Melee and Ultimate) due to it
 
 *Disclaimer: haven't done many*
 - [Functions](http://web.mit.edu/puzzle/www/2012/puzzles/phantom_of_the_operator/functions/)
-- [Rime Royal](http://puzzle.cisra.com.au/2011/3D-Rime-Royal.pdf)
-- [Three Colours](http://puzzle.cisra.com.au/2013/5D-Three-Colours.pdf)
+- [Rime Royal](https://www.mezzacotta.net/puzzle/cisra/2011/puzzlestats_3D.html)
+- [Three Colours](https://www.mezzacotta.net/puzzle/cisra/2013/puzzlestats_5D.html)
 - [Earth Shattering](https://galacticpuzzlehunt.com/puzzle/earth-shattering)
 -->
 
