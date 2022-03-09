@@ -60,7 +60,7 @@ interested in keeping the world safe as technologies such as machine learning be
 % Worked on internal dashboard
 
 \item \textbf{OpenAI} Research engineer \hfill Aug 2018 -- Present \\
-Focused on aligning models to human values.  Researched language modeling (including training \href{https://openai.com/blog/better-language-models/}{GPT-2}, a state-of-the-art model in 2019) and reward modeling (training models that wrote summaries better than human-written ones) -- more details in Research section.  Also led applied efforts to integrate human-feedback techniques, training the instruct-series of models which were deployed in our API product with overwhelmingly positive response.
+Focused on aligning models to human values.  Researched language modeling (including training \href{https://openai.com/blog/better-language-models/}{GPT-2}, a state-of-the-art model in 2019) and reward modeling (trained initial beta version of the instruct series).
 % TODO link blog post for instruct-series
 
 
@@ -141,19 +141,19 @@ and
 \hrule
 
 \begin{center}\begin{Large}\textsc{\textbf{Research}\\}\end{Large}\end{center}
+
+I'm broadly interested in training AI systems that are honest and kind to humans, and training assistive systems that make humans smarter or wiser.
+
 \begin{itemize}
 
 \item \textbf{Large-scale language model training}
-  I trained \href{https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{GPT-2} \href{https://openai.com/blog/better-language-models/}{(blog)} and the early iterations of \href{https://arxiv.org/pdf/2005.14165.pdf}{GPT-3} (NEURIPS 2020 best paper award), scaling up OpenAI's largest models from 110M parameters to over 6B parameters.  I also helped extensively with making efficient large-scale training infrastructure, implementing an evaluation suite, and building a web UI.
+  I trained \href{https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{GPT-2} \href{https://openai.com/blog/better-language-models/}{(blog)} and the early iterations of \href{https://arxiv.org/pdf/2005.14165.pdf}{GPT-3} (NEURIPS 2020 best paper award), scaling up OpenAI's largest models from 110M parameters to over 6B parameters.  % I also helped extensively with making efficient large-scale training infrastructure, implementing an evaluation suite, and building a web UI.
 
-\item \textbf{Reinforcement learning from human preferences}
-  I then switched my efforts to learning from human feedback, and have been a primary contributor to research direction on the Alignment team. I joined midway and helped with analysis in \href{https://arxiv.org/abs/1909.08593}{Fine-Tuning Language Models from Human Preferences} \href{https://openai.com/blog/fine-tuning-gpt-2/}{(blog)}.  After migrating from Tensorflow to Pytorch and making some methodological improvements I suggested, we worked on \href{https://arxiv.org/abs/2009.01325}{Learning to Summarize with Human Feedback} (NEURIPS 2020) \href{https://openai.com/blog/learning-to-summarize-with-human-feedback/}{(blog)}, where we trained models that produced summaries better than human-written ones.
-  I was involved in nearly every aspect of this paper, % including discovery of the zero-shot behavior on CNN/DM,
-  and I think our results were very strong and somewhat underappreciated.
-  Most recently, I have been working on yet to be published results on book-length summarization.
+\item \textbf{Reinforcement learning from human-specified values}
+I have been working on the problem of learning from humans. \href{https://openai.com/blog/learning-to-summarize-with-human-feedback/}{Early work} trained models that produced summaries better than human-written ones.  I then worked on \href{https://openai.com/blog/summarizing-books/}{book summarization} and \href{https://openai.com/blog/instruction-following/}{instruction following}.
 
-\item \textbf{Miscellaneous}
-  I also helped out on some miscellaneous projects, such as \href{https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf}{iGPT} (ICML 2020) and \href{https://arxiv.org/abs/2001.08361}{Scaling Laws for Neural Language Models}. \\
+% \item \textbf{Miscellaneous}
+%   I also helped out on some miscellaneous projects, such as \href{https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf}{iGPT} (ICML 2020) and \href{https://arxiv.org/abs/2001.08361}{Scaling Laws for Neural Language Models}. \\
 
 \end{itemize}
 \hrule
@@ -175,13 +175,14 @@ Vim inspired outlining tool with many features. \href{https://github.com/WuTheFW
 % Wrote solver for SAT variant, for challenge coworker wrote (\href{http://jswidler.com/challenge}{link}).
 
 \item \textbf{Send A Damned Message}
-A simple puzzle game written to learn ReasonML. (\href{https://www.wuthejeff.com/send-a-damned-message}{Play here!})
+A simple puzzle game % written to learn ReasonML.
+(\href{https://www.wuthejeff.com/send-a-damned-message}{Play here!})
 
-\item \textbf{tapystry}
-A small library for handling side effects in python, inspired by redux-saga \href{https://github.com/WuTheFWasThat/tapystry}{[source]}
+% \item \textbf{tapystry}
+% A small library for handling side effects in python, inspired by redux-saga \href{https://github.com/WuTheFWasThat/tapystry}{[source]}
 
-\item \textbf{plotserver}
-A small app for plotting results of ML jobs \href{https://github.com/WuTheFWasThat/plotserver}{[source]}
+% \item \textbf{plotserver}
+% A small app for plotting results of ML jobs \href{https://github.com/WuTheFWasThat/plotserver}{[source]}
 
 % \item \textbf{The Adventures of Flying Bear and Invisible Cat}
 % A puzzle game written for my wife (then girlfriend). (\href{https://www.wuthejeff.com/bearcat-game}{Play here!})
@@ -281,21 +282,21 @@ $\bullet$ National AP Scholar, 3$\times$ USAMO qualifier \hfill \textbf{ACT}: 34
 % Front end: Javascript, Typescript, React, Redux, Saga, HTML/CSS
 % $\bullet$ Proficient: Javascript/Typescript, C++, Python.  Familiar: Rust, bash, Go, Java, HTML/CSS. % (lua, haskell, ruby, C++, C, matlab, \LaTeX)
 
-$\bullet$ Deep learning (especially language modeling, RL, reward learning)
+$\bullet$ Deep learning and machine learning (especially language modeling, RL, reward learning)
 
-$\bullet$ Machine learning frameworks (Tensorflow, pytorch)
+% $\bullet$ Machine learning frameworks (Tensorflow, pytorch)
 
-$\bullet$ Front end, e.g. React frameworks
+$\bullet$ Front end %, e.g. React frameworks
 % Git, Vim, HTML/CSS, MongoDB, databases?, Nginx,
 % , MapReduce and analysis
 
-$\bullet$ Mathematics (2006-2008 USAMO, 2010 Putnam top 200)
-
-$\bullet$ CS theory (e.g. complexity theory, cryptography) % \hfill
+$\bullet$ Devops, e.g. linux, cloud platforms, containers, databases % Kubernetes % \hfill % AWS/GCP/Azure,
 
 $\bullet$ Algorithms and distributed systems design
 
-$\bullet$ Devops, e.g. AWS/GCP, linux, containers, Kubernetes % \hfill
+$\bullet$ CS theory (e.g. complexity theory, cryptography) % \hfill
+
+$\bullet$ Mathematics (2006-2008 USAMO, 2010 Putnam top 200)
 
 % $\bullet$ Productivity \hfill
 % $\bullet$ Learning new skills
