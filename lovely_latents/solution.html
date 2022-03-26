@@ -1,0 +1,148 @@
+<html>
+   <link rel="stylesheet" type="text/css" href="index.css" />
+  <body style='text-align: left;'>
+
+    The first step is to notice that the exponentiatal of the cell values is always close to a rational number.
+    The largest ratio is exp(3.178) ~= 24.
+    This suggests the weight values represent the logarithm of ratios between numeric values corresponding to letters.
+    <br/>
+    <br/>
+    Though this results in many ambiguous pairs of letters, one will notice phrases being spelled in the grid.
+    It turns out it is possible to  fill in a pair of grids like so:
+    <br/>
+    <br/>
+
+<div class="flex-vertical">
+    <table>
+
+      <tr> <td class="color1">X</td> <td class="color1">R</td> <td class="color1">I</td> <td class="color1">S</td> <td class="color1">K</td> <td class="color1">E</td> <td class="color1">D</td> <td class="color1">U</td> <td class="color1">C</td> <td class="color1">T</td> <td class="color1">I</td></tr>
+<tr> <td class="color3">U</td> <td class="color3">S</td> <td class="color2">J</td> <td class="color2">E</td> <td class="color2">Y</td> <td class="color1">R</td> <td class="color2">P</td> <td class="color2">A</td> <td class="color2">U</td> <td class="color1">N</td> <td class="color1">O</td></tr>
+<tr> <td class="color3">P</td> <td class="color2">R</td> <td class="color2">A</td> <td class="color3">A</td> <td class="color2">A</td> <td class="color2">N</td> <td class="color2">D</td> <td class="color3">E</td> <td class="color2">L</td> <td class="color2">S</td> <td class="color3">L</td></tr>
+<tr> <td class="color3">E</td> <td class="color2">E</td> <td class="color1">H</td> <td class="color3">F</td> <td class="color3">U</td> <td class="color2">A</td> <td class="color3">Z</td> <td class="color3">L</td> <td class="color1">E</td> <td class="color2">G</td> <td class="color3">I</td></tr>
+<tr> <td class="color3">R</td> <td class="color2">H</td> <td class="color1">O</td> <td class="color1">N</td> <td class="color3">N</td> <td class="color3">U</td> <td class="color3">Z</td> <td class="color1">G</td> <td class="color1">U</td> <td class="color2">I</td> <td class="color3">K</td></tr>
+<tr> <td class="color3">O</td> <td class="color2">T</td> <td class="color2">O</td> <td class="color1">E</td> <td class="color1">S</td> <td class="color3">P</td> <td class="color1">L</td> <td class="color1">O</td> <td class="color2">T</td> <td class="color2">F</td> <td class="color3">E</td></tr>
+<tr> <td class="color3">P</td> <td class="color3">I</td> <td class="color2">H</td> <td class="color2">C</td> <td class="color1">T</td> <td class="color1">I</td> <td class="color1">A</td> <td class="color2">F</td> <td class="color2">O</td> <td class="color3">E</td> <td class="color3">L</td></tr>
+<tr> <td class="color3">T</td> <td class="color3">C</td> <td class="color3">P</td> <td class="color2">A</td> <td class="color2">E</td> <td class="color1">D</td> <td class="color2">O</td> <td class="color2">L</td> <td class="color3">B</td> <td class="color3">S</td> <td class="color3">Y</td></tr>
+<tr> <td class="color3">I</td> <td class="color3">E</td> <td class="color3">R</td> <td class="color3">Y</td> <td class="color2">O</td> <td class="color2">E</td> <td class="color2">V</td> <td class="color3">D</td> <td class="color3">R</td> <td class="color3">R</td> <td class="color3">U</td></tr>
+<tr> <td class="color3">M</td> <td class="color3">R</td> <td class="color3">O</td> <td class="color3">T</td> <td class="color1">H</td> <td class="color2">T</td> <td class="color1">N</td> <td class="color3">E</td> <td class="color3">A</td> <td class="color3">E</td> <td class="color3">N</td></tr>
+<tr> <td class="color3">A</td> <td class="color3">L</td> <td class="color3">C</td> <td class="color3">I</td> <td class="color1">U</td> <td class="color1">M</td> <td class="color1">A</td> <td class="color3">N</td> <td class="color3">I</td> <td class="color3">V</td> <td class="color3">I</td></tr>
+
+
+    </table>
+    <br/>
+    <br/>
+
+    <table style="margin-left: 50px">
+
+      <tr> <td class="color1">A</td> <td class="color1">G</td> <td class="color1">O</td> <td class="color1">O</td> <td class="color1">D</td> <td class="color1">I</td> <td class="color1">G</td> <td class="color1">H</td> <td class="color1">T</td> <td class="color1">K</td> <td class="color1">I</td></tr>
+<tr> <td class="color3">H</td> <td class="color3">T</td> <td class="color2">A</td> <td class="color2">U</td> <td class="color2">L</td> <td class="color1">N</td> <td class="color2">J</td> <td class="color2">E</td> <td class="color2">Y</td> <td class="color1">S</td> <td class="color1">S</td></tr>
+<tr> <td class="color3">E</td> <td class="color2">D</td> <td class="color2">P</td> <td class="color3">A</td> <td class="color2">A</td> <td class="color2">D</td> <td class="color2">A</td> <td class="color3">E</td> <td class="color2">A</td> <td class="color2">S</td> <td class="color3">I</td></tr>
+<tr> <td class="color3">A</td> <td class="color2">L</td> <td class="color1">I</td> <td class="color3">W</td> <td class="color3">I</td> <td class="color2">N</td> <td class="color3">O</td> <td class="color3">V</td> <td class="color1">T</td> <td class="color2">L</td> <td class="color3">F</td></tr>
+<tr> <td class="color3">F</td> <td class="color2">R</td> <td class="color1">N</td> <td class="color1">N</td> <td class="color3">F</td> <td class="color3">S</td> <td class="color3">L</td> <td class="color1">E</td> <td class="color1">N</td> <td class="color2">O</td> <td class="color3">E</td></tr>
+<tr> <td class="color3">F</td> <td class="color2">O</td> <td class="color2">W</td> <td class="color1">E</td> <td class="color1">R</td> <td class="color3">E</td> <td class="color1">N</td> <td class="color1">M</td> <td class="color2">E</td> <td class="color2">V</td> <td class="color3">A</td></tr>
+<tr> <td class="color3">E</td> <td class="color3">A</td> <td class="color2">E</td> <td class="color2">H</td> <td class="color1">A</td> <td class="color1">I</td> <td class="color1">G</td> <td class="color2">S</td> <td class="color2">I</td> <td class="color3">U</td> <td class="color3">R</td></tr>
+<tr> <td class="color3">C</td> <td class="color3">E</td> <td class="color3">L</td> <td class="color2">T</td> <td class="color2">O</td> <td class="color1">L</td> <td class="color2">G</td> <td class="color2">A</td> <td class="color3">R</td> <td class="color3">G</td> <td class="color3">T</td></tr>
+<tr> <td class="color3">T</td> <td class="color3">T</td> <td class="color3">T</td> <td class="color3">M</td> <td class="color2">T</td> <td class="color2">F</td> <td class="color2">I</td> <td class="color3">T</td> <td class="color3">E</td> <td class="color3">I</td> <td class="color3">H</td></tr>
+<tr> <td class="color3">I</td> <td class="color3">A</td> <td class="color3">R</td> <td class="color3">S</td> <td class="color1">R</td> <td class="color2">T</td> <td class="color1">T</td> <td class="color3">U</td> <td class="color3">M</td> <td class="color3">F</td> <td class="color3">E</td></tr>
+<tr> <td class="color3">O</td> <td class="color3">N</td> <td class="color3">U</td> <td class="color3">I</td> <td class="color1">O</td> <td class="color1">B</td> <td class="color1">O</td> <td class="color3">O</td> <td class="color3">E</td> <td class="color3">D</td> <td class="color3">Y</td></tr>
+
+
+
+    </table>
+</div>
+    <br/>
+    <br/>
+
+    This yields the answers to the questions:
+    <br/>
+    <br/>
+
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Answer</th>
+    <th>True Answer</th>
+  </tr>
+  <tr>
+    <td>For what values are you optimizing?</td>
+    <td>human</td>
+    <td>robot</td>
+  </tr>
+<!--
+  Human
+  Robot
+  5
+-->
+  <tr>
+    <td>What brings the most joy to Paul's heart?</td>
+    <td>a fun puzzle</td>
+    <td>a wife's love </td>
+  </tr>
+<!--
+  AFunPuzzle
+  AwifesLove
+  10
+-->
+  <tr>
+    <td>What makes a partner trustworthy?</td>
+    <td>honest dialogue</td>
+    <td>inner alignment</td>
+  </tr>
+<!--
+What makes a partner trustworthy?
+  HonestDialogue
+  InnerAlignment
+  14
+-->
+  <tr>
+    <td>How should Ajeya and Paul help each other sleep at night?</td>
+    <td>x-risk Reduction</td>
+    <td>a good night kiss</td>
+  </tr>
+<!--
+How should Ajeya and Paul help each other sleep at night?
+  XriskReduction
+  Agoodnightkiss
+  14
+-->
+  <tr>
+    <td>How smart might Ajeya and Paul's hypothetical children be?</td>
+    <!--
+    -->
+    <td>likely universe-brained</td>
+    <td>I fear they'd figure me out</td>
+  </tr>
+<!--
+How smart might Ajeya and Paul's hypothetical children be?
+  LikelyUniverseBrained
+  IFearTheydFigureMeOut
+  21
+-->
+  <tr>
+    <td>What makes Ajeya and Paul's relationship special?</td>
+    <td>superoptimal reciprocity</td>
+    <td>the affectionate altruism</td>
+  </tr>
+<!--
+  SuperOptimalReciprocity
+  TheAffectionateAltruism
+  23
+-->
+  <tr>
+    <td>And finally, what we learn is the fortune Paul and Ajeya's marriage brings</td>
+    <td>Paul and Ajeya's gift of love to each other</td>
+    <td>Ajeya and Paul's love is a gift to the world</td>
+  </tr>
+<!--
+Finally, what is the greatest gift/fortune this marriage brings?
+  paulandajeyasgiftoflovetoeachother
+  ajeyaandpaulsloveisagifttotheworld
+  34
+-->
+
+</table>
+
+
+  </body>
+
+</html>
