@@ -1,0 +1,48 @@
+.center {
+  text-align: center
+}
+
+ul {
+  text-align: left
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: row;
+}
+.flex-vertical div {
+  flex-basis: 33%;
+  flex-grow: 0;
+}
+
+table, th, td {
+  border: 1px solid;
+  padding: 5px
+}
+table {
+    border-collapse: collapse;
+}
+
+.center table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color1 {
+  /* background-color: #e5d1ed */
+  background-color: #d4d4d4
+}
+
+.color2 {
+  background-color: #ed7e92
+}
+.color3 {
+}
+.color4 {
+}
+
+.weights {
+  font-family: courier new;
+  font-size: 12px;
+  text-align: right;
+}
