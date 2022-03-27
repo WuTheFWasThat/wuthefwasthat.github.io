@@ -12,14 +12,16 @@ Here are some projects I've worked on outside of work:
 - **vimflowy** [[demo](https://wuthejeff.com/vimflowy)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
   a Workflowy-like productivity tool with vim keybindings
 
+- **lesser** [[source](https://github.com/WuTheFWasThat/lesser)]
+  a tiny library for manipulating data (alternative to pandas)
+
+{::comment}
 - **tapystry** [[source](https://github.com/WuTheFWasThat/tapystry)]
   a small library for handling side effects in python, inspired by [redux-saga](https://github.com/redux-saga/redux-saga)
 
 - **plotserver** [[source](https://github.com/WuTheFWasThat/plotserver)]
   a small app for plotting results of ML runs
-
-- **lesser** [[source](https://github.com/WuTheFWasThat/lesser)]
-  a tiny library for manipulating data (alternative to pandas)
+{:/comment}
 
 {::comment}
 
@@ -27,21 +29,6 @@ Here are some projects I've worked on outside of work:
   I joined as second employee at a company building an online development environment aimed at scientific computing and education use cases.
   I worked there almost 4 years before the company was [acquired by Udacity](https://www.classcentral.com/report/udacity-acquires-terminal-com/).
 
-{:/comment}
-
-*Games*
-
-- **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer game I made for my wife (then girlfriend)
-- **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: a simple puzzle game
-- **EigenSeeClearlyNow** [[link](https://www.wuthejeff.com/spangame)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my wife
-
-*Puzzles*
-
-- **Teach Us** [[link](https://www.wuthejeff.com/teach_us)]: a puzzle, written with my wife as a wedding card for friends
-- **Mash Made In Heaven** [[link](https://www.wuthejeff.com/mash_made_in_heaven)]: a puzzle, written with my wife as a wedding card for my sister
-
-{::comment}
-- **sksquared** [[link](https://www.wuthejeff.com/sksquared)]: another puzzle written with my wife as a wedding card for a friend
 {:/comment}
 
 *Research*
@@ -57,9 +44,18 @@ Here are some projects I've worked on outside of work:
   my master's thesis project, a probabilistic programming language (and general inference algorithm).
 {:/comment}
 
+*Games*
+
+- **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer game I made for my wife (then girlfriend)
+- **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: a simple puzzle game
+- **EigenSeeClearlyNow** [[link](https://www.wuthejeff.com/spangame)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my wife
+
 *Other*
 
 - **wuthejeff.com** [[source](https://github.com/WuTheFWasThat/wuthefwasthat.github.io)]: this website, of course!
+- A series of puzzles my wife and I have written as wedding cards for various friends: **Teach Us** [[link](https://www.wuthejeff.com/teach_us)], **Mash Made In Heaven** [[link](https://www.wuthejeff.com/mash_made_in_heaven)], **sksquared** [[link](https://www.wuthejeff.com/sksquared)]
+
+
 
 {::comment}
 - **Midnight Therapy** [[source](https://github.com/WuTheFWasThat/midnighttherapy)]: a set of scripts to assist players of Pathery, an online (tower defense inspired) mazing game
