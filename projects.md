@@ -52,7 +52,9 @@ Here are some projects I've worked on outside of work:
 
 *Other*
 
+{::comment}
 - **wuthejeff.com** [[source](https://github.com/WuTheFWasThat/wuthefwasthat.github.io)]: this website, of course!
+{:/comment}
 - A series of puzzles my wife and I have written as wedding cards for various friends: **Teach Us** [[link](https://www.wuthejeff.com/teach_us)], **Mash Made In Heaven** [[link](https://www.wuthejeff.com/mash_made_in_heaven)], **sksquared** [[link](https://www.wuthejeff.com/sksquared)]
 
 
