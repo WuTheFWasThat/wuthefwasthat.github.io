@@ -76,32 +76,6 @@ Youtube
 - [acapellascience](https://www.youtube.com/user/acapellascience)
 
 {::comment}
-## Movies/shows/videos
-
-*Disclaimer: I don't watch many movies*
-
-Movies
-- American Beauty
-- Arrival
-- Contact
-- Inside Out
-- Interstellar
-- Phantom Boy
-- Ratatouille
-- Wreck-It Ralph
-- Zootopia
-
-Shows
-- Game of Thrones
-- Watchmen
-- Death Note
-- Avatar the last Airbender
-
-- Silicon Valley
-- The Office
-- This Is Us
-- Arrested Development
-
 ## Music
 
 Classical
