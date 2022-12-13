@@ -1,26 +1,19 @@
-## Longer games
+Here are some of my all-time favorite puzzle games (very roughly ordered)
 
-Roughly ordered by how much I enjoyed them
-
-### Favorites
 - Baba is You
-- Patrick's Parabox
+- Recursed (and [The Ice Palace DLC](https://recursed-ice-palace.github.io/about/))
 - Braid
-- Recursed (and The Ice Palace DLC)
-
-### Excellent
+- Patrick's Parabox
 - [Blocks with Letters On](http://www.kongregate.com/games/morpheme/blocks-with-letters-on)
+- [Pushing It](https://www.puzzlescript.net/play.html?p=2fe3172d2b9fe684977d184f1b6226d5)
+- [Manufactoria](http://pleasingfungus.com/Manufactoria/)
 - A Monster's Expedition
 - Stephen's Sausage Roll
-- [Manufactoria](http://pleasingfungus.com/Manufactoria/)
+- Bonfire Peaks
 - [Jelly No Puzzle](http://heated.github.io/jelly)
 - Yugo Puzzle
 
-### Quite good
-- Snakebird
-- The Witness
-- Portal
-- The Swapper
+<!--
 
 ### Shorter games
 
@@ -28,17 +21,14 @@ Roughly ordered by how much I enjoyed them
 - [Marbles](http://marblespuzzle.com/)
 - Corrypt
 - [So Broken](https://coreymartin.itch.io/sobroken)
+- [Chicken Chicken Crocodisles](https://pancelor.itch.io/chickenswamp)
+- [Sokogoban](https://www.puzzlescript.net/play.html?p=8726ac1f3addfe42cc527c2217b848e8)
 
-### Graveyard
-- [Vertebrae](https://draxes.itch.io/vertebrae).  Great game, but back breaking difficulty
+### Unfinished...
+- [Vertebrae](https://draxes.itch.io/vertebrae).  Great game, but "back breaking difficulty"
 
-<!--
-- [Pushing It](https://www.puzzlescript.net/play.html?p=2fe3172d2b9fe684977d184f1b6226d5)
-- [Chicken Chicken Crocodile](https://pancelor.itch.io/chickenswamp)
-To finish one day..
-- Trainyard
-- [Vext Edit](https://www.puzzlescript.net/play.html?p=9eb8f8f3df4efb450b798a279eeba2e0)
-- Golem
+    FOR FULL LIST SEE
+    /Users/jeffwu/Dropbox/notes/life/lists/games.md
 
 To play:
 - Deadly rooms of death
@@ -49,8 +39,4 @@ To play:
 - splice
 - antichamber
 - opus magnum?
-
-OKAY/MEH
-  QUBE
-  the pedestrian
 -->
