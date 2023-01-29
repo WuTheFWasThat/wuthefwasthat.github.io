@@ -66,6 +66,7 @@ Blogs/posts
   - [The Monkey and the Machine](https://sideways-view.com/2017/02/19/the-monkey-and-the-machine-a-dual-process-theory/)
 - Chris Olah's [personal blog](http://colah.github.io/) and [Distill.pub](http://distill.pub/)
 - [Hyperbole and a Half](https://hyperboleandahalf.blogspot.com/)
+- [Geometric rationality](https://www.lesswrong.com/s/4hmf7rdfuXDJkxhfg)
 
 {::comment}
 - Slate Star Codex: [Against tulip subsidies](http://slatestarcodex.com/2015/06/06/against-tulip-subsidies/) and [a book review of The Hungry Brain](http://slatestarcodex.com/2017/04/25/book-review-the-hungry-brain/)

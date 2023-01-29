@@ -48,7 +48,8 @@ Here are some projects I've worked on outside of work:
 
 - **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer game I made for my wife (then girlfriend)
 - **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: a simple puzzle game
-- **EigenSeeClearlyNow** [[link](https://www.wuthejeff.com/spangame)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my wife
+- **EigenSeeClearlyNow** [[link]()] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my wife
+- **The Wormhole Gets The Bird Early** [[link](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: (abandoned prototype of) a game about closed timelike curves
 
 *Other*
 
