@@ -9,20 +9,20 @@ Here are some projects I've worked on outside of work:
 
 *Games*
 
-- **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: pimple guzzle same
+★ **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: pimple guzzle same
 
-- **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer made for my wife (then girlfriend)
+★ **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer made for my wife (then girlfriend)
 
-- **EigenSeeClearlyNow** [[link]()] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my wife
+- **EigenSeeClearlyNow** [[link]()] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short prototype linear algebra visualization/game, written with my wife
 
 - **The Wormhole Gets The Bird Early** [[link](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: (abandoned prototype of) a game about closed timelike curves
 
 *Software*
 
-- **vimflowy** [[demo](https://wuthejeff.com/vimflowy)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
+★ **vimflowy** [[demo](https://wuthejeff.com/vimflowy)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
   a Workflowy-like productivity tool with vim keybindings
 
-- **hanabi.rs** [[source](https://github.com/WuTheFWasThat/hanabi.rs)]: a [Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) simulator along with the best-performing algorithm I know of
+★ **hanabi.rs** [[source](https://github.com/WuTheFWasThat/hanabi.rs)]: a [Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) simulator, and former SOTA algorithms (Mar 2016 to Dec 2019)
 
 - **PyChurch** [[source](https://github.com/WuTheFWasThat/Church-interpreter)] and [[thesis writeup](https://github.com/WuTheFWasThat/PyChurch/blob/master/papers/MEng%20thesis.pdf)], implementations of a probabilistic programing language
 
@@ -32,10 +32,10 @@ Here are some projects I've worked on outside of work:
 - **lesser** [[source](https://github.com/WuTheFWasThat/lesser)]
   tiny library for manipulating data (alternative to pandas)
 
-{::comment}
 - **tapystry** [[source](https://github.com/WuTheFWasThat/tapystry)]
-  a small library for handling side effects in python, inspired by [redux-saga](https://github.com/redux-saga/redux-saga)
+  tiny library for handling side effects in python, inspired by [redux-saga](https://github.com/redux-saga/redux-saga)
 
+{::comment}
 - **plotserver** [[source](https://github.com/WuTheFWasThat/plotserver)]
   a small app for plotting results of ML runs
 {:/comment}
