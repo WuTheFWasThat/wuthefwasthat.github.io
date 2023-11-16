@@ -7,13 +7,30 @@ permalink: /projects/
 
 Here are some projects I've worked on outside of work:
 
-*Tools*
+*Games*
+
+- **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: pimple guzzle same
+
+- **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer made for my wife (then girlfriend)
+
+- **EigenSeeClearlyNow** [[link]()] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my wife
+
+- **The Wormhole Gets The Bird Early** [[link](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: (abandoned prototype of) a game about closed timelike curves
+
+*Software*
 
 - **vimflowy** [[demo](https://wuthejeff.com/vimflowy)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
   a Workflowy-like productivity tool with vim keybindings
 
+- **hanabi.rs** [[source](https://github.com/WuTheFWasThat/hanabi.rs)]: a [Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) simulator along with the best-performing algorithm I know of
+
+- **PyChurch** [[source](https://github.com/WuTheFWasThat/Church-interpreter)] and [[thesis writeup](https://github.com/WuTheFWasThat/PyChurch/blob/master/papers/MEng%20thesis.pdf)], implementations of a probabilistic programing language
+
+- **cdict** [[source](https://github.com/WuTheFWasThat/cdict)]
+  tiny library for hyperparameter sweeps
+
 - **lesser** [[source](https://github.com/WuTheFWasThat/lesser)]
-  a tiny library for manipulating data (alternative to pandas)
+  tiny library for manipulating data (alternative to pandas)
 
 {::comment}
 - **tapystry** [[source](https://github.com/WuTheFWasThat/tapystry)]
@@ -23,41 +40,12 @@ Here are some projects I've worked on outside of work:
   a small app for plotting results of ML runs
 {:/comment}
 
-{::comment}
-
-- **Terminal.com**
-  I joined as second employee at a company building an online development environment aimed at scientific computing and education use cases.
-  I worked there almost 4 years before the company was [acquired by Udacity](https://www.classcentral.com/report/udacity-acquires-terminal-com/).
-
-{:/comment}
-
-*Research*
-
-{::comment}
-- **Language modeling** At OpenAI, I trained the language models GPT-2 ([[blog post](https://openai.com/blog/better-language-models/)] [[source](https://github.com/openai/gpt-2)]) and initial prototypes of GPT-3 ([[paper]](https://arxiv.org/pdf/2005.14165.pdf)).
-- **Learning from human preferences** I worked on techniques for making ML models (mainly language models) act according to preferences of humans.  See ([[blog post](TODO)])
-{:/comment}
-
-- **hanabi.rs** [[source](https://github.com/WuTheFWasThat/hanabi.rs)]: a [Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) simulator along with the best-performing algorithm I know of
-- **PyChurch** [[source](https://github.com/WuTheFWasThat/Church-interpreter)] and [[thesis writeup](https://github.com/WuTheFWasThat/PyChurch/blob/master/papers/MEng%20thesis.pdf)], implementations of a probabilistic programing language
-{::comment}
-  my master's thesis project, a probabilistic programming language (and general inference algorithm).
-{:/comment}
-
-*Games*
-
-- **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer made for my wife (then girlfriend)
-- **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: pimple guzzle same
-- **EigenSeeClearlyNow** [[link]()] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short linear algebra visualization/game, written with my wife
-- **The Wormhole Gets The Bird Early** [[link](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: (abandoned prototype of) a game about closed timelike curves
-
 *Other*
 
 {::comment}
 - **wuthejeff.com** [[source](https://github.com/WuTheFWasThat/wuthefwasthat.github.io)]: this website, of course!
 {:/comment}
 - A series of puzzles my wife and I have written as wedding cards for various friends: **Teach Us** [[link](https://www.wuthejeff.com/teach_us)], **Mash Made In Heaven** [[link](https://www.wuthejeff.com/mash_made_in_heaven)], **sksquared** [[link](https://www.wuthejeff.com/sksquared)], **Lovely Latents** [[link](https://www.wuthejeff.com/lovely_latents)]
-
 
 
 {::comment}
