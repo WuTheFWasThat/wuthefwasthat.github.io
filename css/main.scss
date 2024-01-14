@@ -40,6 +40,14 @@ $on-laptop:        800px;
     }
 }
 
+summary {
+  h1, h2, h3, h4, h5, h6 {
+    display: inline-block;
+    margin: 0; // Remove default margins if desired
+  }
+}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",

@@ -8,12 +8,14 @@ comments: true
 
 I would like an app where the main interface is extremely minimal: in big font, it tells me what I should do.
 
-Whenever there's something I would like to do later, I simply speak to the app - it parses my request and reorganizes my schedule.
+Whenever there's something I would like to do later, I simply speak to the app - it parses my request and reorganizes my schedule.  Similarly, I can ask the app questions about previous time spent.
 
 The app should be dead simple to use, and give you the best of todo lists, calendars, time-tracking apps, and more.
 
+<details markdown=1>
+<summary markdown=1>
 ## Motivation: premeditated planning
-
+</summary>
 In general, I often find myself with free time and no particular idea of what I should do.
 On the other hand, occasionally I think of things which aren't habitual, but that I should be doing more of, e.g. calling my family.
 But when the free time comes along, it takes much more effort to remember things I should be doing.
@@ -23,8 +25,12 @@ You can imagine yourself in two possible modes, "CEO" and "worker".  Most time i
 (You might switch fluidly between the two modes, but ideally not too much.)
 To facilitate this, we use software:  CEO me enters a list of tasks (and priorities and deadlines) into some app, and worker me repeatedly does *whatever the app says*.
 The app is my boss, but since I program it, I'm my own boss.
+</details>
 
+<details markdown=1>
+<summary markdown=1>
 ## Advantages over existing solutions
+</summary>
 
 Absorbing the functionality of both todo lists and calendars gives additional advantages.
 Fundamentally, this is because both are tracking ways you should spend time.
@@ -33,20 +39,29 @@ Here are some examples:
 - When I add an event, it can tell me what the marginal time would've been used for.  Is that acquaintance's birthday party really better than an hour of running or playing music? This is especially useful for people who tend to over-schedule themselves.
 - There's less cognitive overhead if only using a single mechanism to decide what to do.  When I have todo list only for unstructured time, it's hard to make a habit of following it.  If that list is also your calendar, you might find it easier to stick to.
 - It's easy to see overviews of your time spent, if it's all in one place.  So time-tracking comes nearly for free.
+</details>
 
+<details markdown=1>
+<summary markdown=1>
 ## Idealized interface details
+</summary>
+
 
 Here's an idealized version of the app I imagine, at a high level.
-I think it's quite hard to implement well, but there is a large spectrum of simpler versions.
+I think it's quite hard to implement well (**Update**: 5 years later, I think this is highly doable), but there is a large spectrum of simpler versions.
+
 
 ### Basic actions
 
 There are three main classes of actions, **Plan**, **Do**, and **Reflect**, corresponding to the life cycle of tasks.
 The default screen is a "Do" screen.
-You can prompt the app with queries to either plan new tasks or reflect on past tasks, in which case the app may show relevant information, such as a calendar.
+But you can prompt the app with queries to either plan new tasks or reflect on past tasks, in which case the app may show relevant information, such as a calendar.
 When you exit a planning/reflecting session, it goes back to the "Do" screen.
 
+<details markdown=1>
+<summary markdown=1>
 #### **Plan**
+</summary>
 
 You can add and edit tasks, in natural language, like:
 - I'd like to sleep about 8 hours a day.  I never need more than 9 hours and always need at least 6
@@ -67,7 +82,12 @@ The app may ask clarifying questions, that you can optionally respond to.
 It can also just comment.
 - *You will lose one hour of piano practice time.*
 
+</details>
+
+<details markdown=1>
+<summary markdown=1>
 #### **Do**
+</summary>
 
 There's a screen that tells you what to do.  You can either select Done or Skip.
 
@@ -81,7 +101,13 @@ If you "Skip", which is by default discouraged, you can/should enter a justifica
 - I'm at the mall, this task should be done at home
 - I don't have the energy or willpower to exercise
 
+</details>
+
+<details markdown=1>
+<summary markdown=1>
 #### **Reflect**
+</summary>
+
 
 It's easy to query about tasks, which is useful during planning
 - Show all planned exercise in the next month
@@ -94,7 +120,13 @@ And easy to query about time spent
 - What tasks do I want to do, but don't have time for?
 - Show me tasks that took longer than I expected
 
+</details>
+
+<details markdown=1>
+<summary markdown=1>
 ### Bells and whistles
+</summary>
+
 
 Obviously this app is not entirely fleshed out.  For example:
 
@@ -106,10 +138,13 @@ Obviously this app is not entirely fleshed out.  For example:
 
 The list of feature requests is probably endless :)
 
+Also, some suggestions for the name of such an app:
+- Lachesis or Decima, the second of the Three Fates who measured and apportioned the thread of life.
+- Remembear, in the spirit of Beeminder (if the Fates are too serious!)
+</details>
+
+</details>
+
 ## Conclusion
 
 I would be very happy if someone implemented something like this.  If you are interested, please let me know!
-
-Some suggestions for the name of such an app:
-- Lachesis or Decima, the second of the Three Fates who measured and apportioned the thread of life.
-- Remembear, in the spirit of Beeminder (if the Fates are too serious!)
