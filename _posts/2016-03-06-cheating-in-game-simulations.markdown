@@ -115,13 +115,9 @@ pub trait Strategy {
 }
 ```
 
-Again, shared mutable state becomes impossible\*, thanks to Rust's ownership system!
+Again, shared mutable state becomes impossible[^1], thanks to Rust's ownership system!
 And again, as a bonus, mutating the GameStateView becomes impossible - you have to have a mutable reference to do so.
 
-\* Okay. I lied - it's still possible, but made harder and highly discouraged.
-And I think you could tweak the language to disallow it, which is the important point.
-(Rust was designed as a systems language.
- I think if another language adopted Rust's approach, they could get rid of stuff like Cell/Arc/Mutex, and disallow this relatively cleanly.
- And maybe also get closer to Haskell's prettiness.)
+[^1]: Okay. I lied - it's still possible, but made harder and highly discouraged. And you could tweak the language to disallow it (getting rid of Cell/Arc/Mutex), which is the important point.
 
 For those interested, my project is [here](https://github.com/WuTheFWasThat/hanabi.rs)
