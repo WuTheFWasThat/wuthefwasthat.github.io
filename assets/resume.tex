@@ -35,9 +35,9 @@ Email {\tiny me@wuthejeff.com} \hfill
 \end{center}
 
 \noindent \textbf{Summary:}
-Machine learning researcher and full-stack engineer
+Researcher and full-stack engineer
 % Full-stack developer with research experience and wishing to do good.
-interested in keeping the world safe as technologies such as machine learning become more powerful. \\
+interested in keeping the world safe for everyone as technologies such as machine learning become more powerful \\
 
 %\begin{center}
 %1466 Torrey Pines Road\\San Diego, CA 92037 \\
@@ -60,7 +60,7 @@ interested in keeping the world safe as technologies such as machine learning be
 % Worked on internal dashboard
 
 \item \textbf{OpenAI} Research engineer \hfill Aug 2018 -- Present \\
-Focused on methods for human in the loop training.  Researched language modeling (including training \href{https://openai.com/blog/better-language-models/}{GPT-2}, a state-of-the-art model in 2019) and reward modeling (trained initial beta version of the instruct series).
+  AI safety research.  Worked on language modeling (including training \href{https://openai.com/blog/better-language-models/}{GPT-2}) and RLHF (trained initial \href{https://openai.com/blog/instruction-following/}{GPT instruct} series models).  Managed teams and projects working on scalable oversight, generalization, and interpretability.
 % Managing small team within Alignment team
 % TODO link blog post for instruct-series
 
@@ -139,21 +139,28 @@ and
 
 \end{itemize}
 
-\vspace{6pt}
+\vspace{8pt}
 
 \hrule
 
 \begin{center}\begin{Large}\textsc{\textbf{Research}\\}\end{Large}\end{center}
 
-I'm broadly interested in training AI systems that are honest and kind to humans, and training assistive systems that make humans smarter or wiser.
+I'm broadly interested in training AI systems that are honest and kind to humans, and assistive systems that make humans smarter or wiser.
 
 \begin{itemize}
 
-\item \textbf{Large-scale language model training}
-  I trained \href{https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{GPT-2} \href{https://openai.com/blog/better-language-models/}{(blog)} and the early iterations of \href{https://arxiv.org/pdf/2005.14165.pdf}{GPT-3} (NEURIPS 2020 best paper award), scaling up OpenAI's largest models from 110M parameters to over 6B parameters.  % I also helped extensively with making efficient large-scale training infrastructure, implementing an evaluation suite, and building a web UI.
+\item \textbf{Training large language models}
+I scaled up OpenAI's largest language models 100x (from 110M parameters to 12B parameters).  % I also helped extensively with making efficient large-scale training infrastructure, implementing an evaluation suite, and building a web UI.
+This included training \href{https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}{GPT-2} \href{https://openai.com/blog/better-language-models/}{[blog]} and early stepping stones towards \href{https://arxiv.org/pdf/2005.14165.pdf}{GPT-3} (NeurIPS 2020 best paper award),
 
-\item \textbf{Reinforcement learning from human-specified values}
-I have been working on the problem of learning from humans. \href{https://openai.com/blog/learning-to-summarize-with-human-feedback/}{Early work} trained models that produced summaries better than human-written ones.  I then worked on \href{https://openai.com/blog/summarizing-books/}{book summarization} and \href{https://openai.com/blog/instruction-following/}{instruction following}.
+\item \textbf{Reinforcement learning from human feedback}
+I worked on helping language models learn from human feedback and specified human values. \href{https://openai.com/blog/learning-to-summarize-with-human-feedback/}{Early proofs of concept} trained models that produced summaries better than human-written ones.  This culminated in \href{https://openai.com/blog/instruction-following/}{instruction following models (InstructGPT)}, which were the predecessor to ChatGPT.
+
+\item \textbf{Alignment in the superhuman regime}
+I managed projects working on studying ML in the regime where humans cannot evaluate model outputs. \href{https://openai.com/index/critiques/}{Our work on scalable oversight} investigated whether models trained to self-critique could strengthen human supervision.  \href{https://openai.com/index/weak-to-strong-generalization/}{Our work on generalization} investigated whether models could behave as intended despite weak supervision.
+
+\item \textbf{Interpretability at scale}
+I managed projects working on understanding how large language models work.  We worked on \href{https://openai.com/index/extracting-concepts-from-gpt-4/}{disentangling building blocks at scale} and \href{https://openai.com/index/language-models-can-explain-neurons-in-language-models/}{automating their interpretations}.
 
 % \item \textbf{Miscellaneous}
 %   I also helped out on some miscellaneous projects, such as \href{https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf}{iGPT} (ICML 2020) and \href{https://arxiv.org/abs/2001.08361}{Scaling Laws for Neural Language Models}. \\
@@ -161,15 +168,19 @@ I have been working on the problem of learning from humans. \href{https://openai
 \end{itemize}
 \hrule
 
-\begin{center}\begin{Large}\textsc{\textbf{Selected Side Projects}\\}\end{Large}\end{center}
+\begin{center}\begin{Large}\textsc{\textbf{Side Projects}\\}\end{Large}\end{center}
 %  \setlength\itemsep{0em}
+
+I enjoy building software.  Here is a selection of projects I worked on mainly for fun.
+For more, see \href{https://www.wuthejeff.com/projects}{my website}.
+
 
 \begin{itemize}
 \item \textbf{Vimflowy}
-Vim inspired outlining tool with many features. \href{https://github.com/WuTheFWasThat/vimflowy}{[Source]} (Typescript) and \href{https://wuthejeff.com/vimflowy}{[Demo]}.
+Note taking tool inspired by Vim and Workflowy. \href{https://www.wuthejeff.com/vimflowy}{[Demo]} \href{https://github.com/WuTheFWasThat/vimflowy}{[Source (Typescript)]}
 
 \item \textbf{Hanabi simulation}
-  Game engine for simulating hanabi strategies, and state of the art bots.  Cited in \href{https://arxiv.org/abs/1902.00506}{[DeepMind/Brain paper]} and subsequently \href{https://www.wsj.com/articles/why-the-card-game-hanabi-is-the-next-big-hurdle-for-artificial-intelligence-11553875351?mod=rsswn}{[interviewed for WSJ]}. \href{https://github.com/WuTheFWasThat/hanabi.rs}{[Source]} (Rust).
+Game engine for simulating hanabi strategies, and state of the art bots.  Cited in \href{https://arxiv.org/abs/1902.00506}{DeepMind work} and \href{https://www.wsj.com/articles/why-the-card-game-hanabi-is-the-next-big-hurdle-for-artificial-intelligence-11553875351}{interviewed for in WSJ}. \href{https://github.com/WuTheFWasThat/hanabi.rs}{[Source (Rust)]}
 
 % \item \textbf{EigenSeeClearlyNow}
 % A linear-algebra visualization puzzle.  \href{https://github.com/WuTheFWasThat/EigenSeeClearlyNow}{[Source]} and \href{https://wuthejeff.com/spangame}{[Demo]}.
@@ -178,8 +189,12 @@ Vim inspired outlining tool with many features. \href{https://github.com/WuTheFW
 % Wrote solver for SAT variant, for challenge coworker wrote (\href{http://jswidler.com/challenge}{link}).
 
 \item \textbf{Send A Damned Message}
-A simple puzzle game % written to learn ReasonML.
-(\href{https://www.wuthejeff.com/send-a-damned-message}{Play here!})
+  A simple puzzle game.
+\href{https://www.wuthejeff.com/send-a-damned-message}{[Play here]}
+\href{https://github.com/WuTheFWasThat/send-a-damned-message}{[Source (ReasonML)]}
+
+% \item \textbf{cdict}
+% A small library for hyperparameter management \href{https://github.com/WuTheFWasThat/cdict}{[source (Python)]}
 
 % \item \textbf{tapystry}
 % A small library for handling side effects in python, inspired by redux-saga \href{https://github.com/WuTheFWasThat/tapystry}{[source]}
@@ -191,6 +206,9 @@ A simple puzzle game % written to learn ReasonML.
 % A puzzle game written for my wife (then girlfriend). (\href{https://www.wuthejeff.com/bearcat-game}{Play here!})
 
 \end{itemize}
+
+
+\vspace{8pt}
 
 \hrule
 
@@ -206,7 +224,6 @@ A simple puzzle game % written to learn ReasonML.
 % \hfill \textbf{GRE}: Verbal Reasoning: 164, Quantitative Reasoning: 170, Analytical Writing: 5.5\\
 % 2011
 
-\vspace{8 pt}
 
 % high school coursework
 \begin{comment}
@@ -280,6 +297,7 @@ $\bullet$ National AP Scholar, 3$\times$ USAMO qualifier \hfill \textbf{ACT}: 34
 \end{comment}
 \hrule
 
+\vspace{8 pt}
 \begin{center}\begin{Large}\textsc{\textbf{Skills}\\}\end{Large}\end{center}
 
 % Front end: Javascript, Typescript, React, Redux, Saga, HTML/CSS
@@ -289,7 +307,7 @@ $\bullet$ Deep learning and machine learning (especially language modeling, RL, 
 
 % $\bullet$ Machine learning frameworks (Tensorflow, pytorch)
 
-$\bullet$ Front end %, e.g. React frameworks
+$\bullet$ Front end development %, e.g. React frameworks
 % Git, Vim, HTML/CSS, MongoDB, databases?, Nginx,
 % , MapReduce and analysis
 
@@ -304,13 +322,24 @@ $\bullet$ Mathematics (2006-2008 USAMO, 2010 Putnam top 200)
 % $\bullet$ Productivity \hfill
 % $\bullet$ Learning new skills
 
-$\bullet$ Keeping an eye on the big picture
+%$\bullet$ English (native), Mandarin (fluent speaking/listening)
 
-$\bullet$ Acting with integrity
+\vspace{8 pt}
+
+\hrule
+
+\begin{center}\begin{Large}\textsc{\textbf{Personal qualities}\\}\end{Large}\end{center}
+
+$\bullet$ I enjoy working with people who share my mission, and who bring some thinking that I don't
+
+$\bullet$ I like to keep an eye on the big picture, and I tend to think abstractly/idealistically
+
+$\bullet$ I strive to act with integrity
+
+$\bullet$ I try to be open-minded
 
 % $\bullet$ Cares about other people.
 
-%$\bullet$ English (native), Mandarin (fluent speaking/listening)
 
 % IN PRESS:
 % GPT-2
