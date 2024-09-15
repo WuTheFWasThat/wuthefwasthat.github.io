@@ -46,11 +46,13 @@ Short stories
 - *Story of Your Life* by Ted Chiang
 - *Understand* by Ted Chiang
 - [Scott Alexander's pill story](http://slatestarcodex.com/2015/06/02/and-i-show-you-how-deep-the-rabbit-hole-goes/)
-- [Scott Alexander's story of alchemy](http://slatestarcodex.com/2017/11/09/ars-longa-vita-brevis/)
 - *The Moral Virologist* by Greg Egan
 - *Learning to Be Me* by Greg Egan
 - [Forward Pass](http://karpathy.github.io/2021/03/27/forward-pass/) by Andrej Karpathy
 - [Lena](https://qntm.org/mmacevedo) by qnmt
+{::comment}
+- [Scott Alexander's story of alchemy](http://slatestarcodex.com/2017/11/09/ars-longa-vita-brevis/)
+{:/comment}
 
 Books
 - *GEB* by Douglas Hofstadter
@@ -72,9 +74,15 @@ Blogs/posts
 - Slate Star Codex: [Against tulip subsidies](http://slatestarcodex.com/2015/06/06/against-tulip-subsidies/) and [a book review of The Hungry Brain](http://slatestarcodex.com/2017/04/25/book-review-the-hungry-brain/)
 {:/comment}
 
+{::comment}
 Youtube
 - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 - [acapellascience](https://www.youtube.com/user/acapellascience)
+
+- [The 8-Bit Big Band](https://www.youtube.com/channel/UCxUheFf_jVsSkxW9DBd_6bA)
+- pokearth
+- 
+{:/comment}
 
 {::comment}
 ## Music

@@ -62,5 +62,5 @@ editor = config --get core.editor
 NOTE: These aliases only work with editors that take separate filenames as arguments and opens all of them.
 I think vim and emacs both work though, so that should cover many users.
 
-For those curious, my full list of aliases can be found [here](https://github.com/WuTheFWasThat/dotfiles/blob/master/.gitconfig).
+For those curious, my full list of aliases can be found [here](https://github.com/WuTheFWasThat/dotfiles/blob/master/gitconfig).
 Please let me know if you have other useful git aliases!

@@ -1,5 +1,5 @@
 To install:
-- Install ruby
+- Install ruby, has to be 3.2.4 (see https://medium.com/@ritviknag/ruby-versioning-trouble-with-jekyll-github-pages-fd2748bf4e1d and https://www.moncefbelyamani.com/making-github-pages-work-with-latest-jekyll/)
 - Install bundler: `gem install bundler`
 - `bundle install`
 
