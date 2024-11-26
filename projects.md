@@ -13,9 +13,9 @@ Here are some projects I've worked on outside of work:
 
 ★ **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer made for my wife (then girlfriend)
 
-- **EigenSeeClearlyNow** [[link]()] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a short prototype linear algebra visualization/game, written with my wife
-
 - **The Wormhole Gets The Bird Early** [[link](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: (abandoned prototype of) a game about closed timelike curves
+
+- **EigenSeeClearlyNow** [[link](https://www.wuthejeff.com/spangame/)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a tiny prototype linear algebra visualization/game, written with my wife
 
 *Software*
 
