@@ -9,13 +9,13 @@ Here are some projects I've worked on outside of work:
 
 *Games*
 
-★ **Send A Damned Message** [[link](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: pimple guzzle same
+★ **Send A Damned Message** [[play](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: pimple guzzle same
 
 ★ **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer made for my wife (then girlfriend)
 
-- **The Wormhole Gets The Bird Early** [[link](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: (abandoned prototype of) a game about closed timelike curves
+* **The Wormhole Gets The Bird Early** [[play](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: a game about time travel, because you're having fun when time flies!
 
-- **EigenSeeClearlyNow** [[link](https://www.wuthejeff.com/spangame/)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a tiny prototype linear algebra visualization/game, written with my wife
+- **EigenSeeClearlyNow** [[play](https://www.wuthejeff.com/spangame/)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a tiny prototype linear algebra visualization/game, written with my wife
 
 *Software*
 
@@ -34,6 +34,9 @@ Here are some projects I've worked on outside of work:
 
 - **tapystry** [[source](https://github.com/WuTheFWasThat/tapystry)]
   tiny library for handling side effects in python, inspired by [redux-saga](https://github.com/redux-saga/redux-saga)
+
+- **dotfiles** [[source](https://github.com/WuTheFWasThat/dotfiles)]
+  various config, most notable are karabiner + neovim + git
 
 {::comment}
 - **plotserver** [[source](https://github.com/WuTheFWasThat/plotserver)]
