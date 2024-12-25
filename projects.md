@@ -13,7 +13,7 @@ Here are some projects I've worked on outside of work:
 
 ★ **The Adventures of Flying Bear and Invisible Cat** [[play](https://www.wuthejeff.com/bearcat-game)]: a puzzle platformer made for my wife (then girlfriend)
 
-* **The Wormhole Gets The Bird Early** [[play](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: a game about time travel, because you're having fun when time flies!
+* **The Wormhole Gets The Bird Early** [[play](https://www.wuthejeff.com/the-wormhole-gets-the-bird-early)]: a (WIP prototype) game about time travel, because you're having fun when time flies!
 
 - **EigenSeeClearlyNow** [[play](https://www.wuthejeff.com/spangame/)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a tiny prototype linear algebra visualization/game, written with my wife
 

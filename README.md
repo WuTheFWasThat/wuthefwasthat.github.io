@@ -11,8 +11,8 @@ To run locally:
 - change workflow to use _drafts instead of git branches?
 
 to build other sub-sites
-cp ../send_a_damned_message/build/* send-a-damned-message/
+yes | rm -rf 'send-a-damned-message/*'; cp ../games/send_a_damned_message/build/* send-a-damned-message/
 cp ../bearcat-game/static/* bearcat-game/
 cp -r ../teach_us/* teach_us/
 cp -r ../vimflowy/build/* vimflowy/
-cp -r ../wormhole_gets_the_bird_early/build/* the-wormhole-gets-the-bird-early/
+yes | rm -rf 'the-wormhole-gets-the-bird-early/*'; cp -r ../games/wormhole_gets_the_bird_early/build/* the-wormhole-gets-the-bird-early/
