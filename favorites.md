@@ -78,6 +78,7 @@ Blogs/posts
 Youtube
 - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 - [acapellascience](https://www.youtube.com/user/acapellascience)
+- [watchdust](https://www.youtube.com/@watchdust)
 
 - [The 8-Bit Big Band](https://www.youtube.com/channel/UCxUheFf_jVsSkxW9DBd_6bA)
 - pokearth
