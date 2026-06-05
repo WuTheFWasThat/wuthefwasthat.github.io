@@ -279,14 +279,42 @@ th { font-weight: 600; }
 .site-nav .icon > svg { width: 16px; height: 16px; display: block; }
 .site-nav .icon--github > svg { width: 14px; height: 14px; }  /* fills its viewBox; shrink to match */
 .site-nav .icon > svg path { fill: var(--muted); }
-.site-nav .username {
-  font-family: var(--sans);
-  font-size: 0.93rem;
-  color: var(--muted);
-  margin-left: 0.2rem;
-}
 .site-nav a:hover .icon > svg path { fill: var(--link-hover); }
-.site-nav a:hover .username { color: var(--link-hover); }
+
+/* CSS-only tooltips for the header icons */
+.nav-icons a { position: relative; }
+.nav-icons .username {
+  position: absolute;
+  top: calc(100% + 9px);
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0.22rem 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  line-height: 1.3;
+  color: var(--bg);
+  background: var(--text);
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+  z-index: 10;
+}
+.nav-icons .username::before {  /* little arrow */
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-bottom-color: var(--text);
+}
+.nav-icons a:hover .username,
+.nav-icons a:focus-visible .username {
+  opacity: 1;
+}
 
 /* ==========================================================================
    Footer

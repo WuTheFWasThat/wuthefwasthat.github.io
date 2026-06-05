@@ -3,7 +3,8 @@ layout: default
 permalink: /favorites/
 ---
 
-Here are some lists of my favorite things.
+I spend a lot of time appreciating various things humans have produced: playing games, doing puzzles, reading, watching shows, listening to music, learning about past discoveries, etc.
+Here are some lists of my favorites.
 Individual lists are very roughly ordered by how much I like them.
 
 If you have recommendations based on these lists, please let me know!
