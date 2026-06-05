@@ -46,4 +46,3 @@ I am personally fairly excited about doing these things today:
 - A lot more explicit thinking about our values and behaviors we want in models
 - Working on good fine-tuning approach for eliciting those behaviors
 
-(All views here are completely my own.  That said, if you're interested in working on the fine-tuning approach, it is part of my job and my employer is hiring!

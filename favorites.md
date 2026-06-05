@@ -12,7 +12,7 @@ Also, hope you find some new gems!
 ## Games
 
 I primarily play [puzzle games](puzzle_games.md).
-I also enjoy many board and card games, most notably deck-building games (check out [Engine](https://www.engine-game.com), a game my friend made).
+I also enjoy many board and card games, most notably deck-building games (check out [Engine](https://www.engine-game.com), a game my friend made) and social deduction games.
 As per MIT tradition, I occasionally do puzzle hunts, though I'm not that great at them.
 I play some DDR as well, mainly because it doubles as exercise.
 I also try to stay away from Super Smash Brothers (Melee and Ultimate) due to its addictive properties.
@@ -40,18 +40,21 @@ I also try to stay away from Super Smash Brothers (Melee and Ultimate) due to it
 
 ## Writings
 
-*Disclaimer: I don't read much*
+*Disclaimer: I don't read much many books/stories these days*
 
 Short stories
 - *Story of Your Life* by Ted Chiang
 - *Understand* by Ted Chiang
+- *The Merchant and the Alchemist's Gate* by Ted Chiang
 - [Scott Alexander's pill story](http://slatestarcodex.com/2015/06/02/and-i-show-you-how-deep-the-rabbit-hole-goes/)
 - *The Moral Virologist* by Greg Egan
 - *Learning to Be Me* by Greg Egan
 - [Forward Pass](http://karpathy.github.io/2021/03/27/forward-pass/) by Andrej Karpathy
 - [Lena](https://qntm.org/mmacevedo) by qnmt
+
 {::comment}
 - [Scott Alexander's story of alchemy](http://slatestarcodex.com/2017/11/09/ars-longa-vita-brevis/)
+- [The Goddess of Everything Else](https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/)
 {:/comment}
 
 Books
@@ -60,6 +63,7 @@ Books
 
 Web serial
 - [Worm](https://parahumans.wordpress.com/) (warning: dark, very long)
+- [Pokemon: The Origin of Species](https://daystareld.com/pokemon/) (not yet finished)
 
 Blogs/posts
 - [Wait but Why](https://waitbutwhy.com/)
@@ -111,3 +115,12 @@ Pop
 - *Mad* by Ne-Yo
 - *I Say a Little Prayer* by Aretha Franklin
 {:/comment}
+
+## Shows
+- Game of Thrones (first 5 seasons)
+- Watchmen
+- Avatar: The Last Airbender (and The Legend of Korra)
+- Arcane (especially season 1)
+- Death Note
+- Breaking Bad
+

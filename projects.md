@@ -7,7 +7,7 @@ permalink: /projects/
 
 Here are some projects I've worked on outside of work:
 
-*Games*
+## Games
 
 ★ **Send A Damned Message** [[play](https://www.wuthejeff.com/send-a-damned-message/)] [[source](https://github.com/WuTheFWasThat/send-a-damned-message)]: pimple guzzle same
 
@@ -17,7 +17,7 @@ Here are some projects I've worked on outside of work:
 
 - **EigenSeeClearlyNow** [[play](https://www.wuthejeff.com/spangame/)] [[source](https://github.com/WuTheFWasThat/EigenSeeClearlyNow)]: a tiny prototype linear algebra visualization/game, written with my wife
 
-*Software*
+## Software
 
 ★ **vimflowy** [[demo](https://wuthejeff.com/vimflowy)] [[source](https://github.com/WuTheFWasThat/vimflowy)]:
   a Workflowy-like productivity tool with vim keybindings
@@ -43,7 +43,7 @@ Here are some projects I've worked on outside of work:
   a small app for plotting results of ML runs
 {:/comment}
 
-*Other*
+## Other
 
 {::comment}
 - **wuthejeff.com** [[source](https://github.com/WuTheFWasThat/wuthefwasthat.github.io)]: this website, of course!
