@@ -120,7 +120,7 @@ Pop
 ## Shows
 - Game of Thrones (first 5 seasons)
 - Watchmen
-- Avatar: The Last Airbender (and The Legend of Korra)
+- Avatar: The Last Airbender (and The Legend of Korra seasons 3/4)
 - Arcane (especially season 1)
 - Death Note
 - Breaking Bad

@@ -18,6 +18,7 @@
   --bg: #fcfcf7;
   --bg-soft: #f3f1ea;
   --text: #1c1c1a;
+  --text-soft: #67645b;      /* lighter than text (light mode) */
   --muted: #6f6d65;
   --faint: #b6b2a8;
   --rule: #e7e3d8;
@@ -33,6 +34,7 @@
     --bg: #1e1d1a;           /* warm dark gray */
     --bg-soft: #262420;
     --text: #d6cdb0;         /* faded warm yellow / wheat */
+    --text-soft: #9c9379;    /* darker than text (dark mode) */
     --muted: #948c73;
     --faint: #565140;
     --rule: #322f28;
@@ -124,6 +126,24 @@ blockquote {
   font-style: italic;
 }
 blockquote > :last-child { margin-bottom: 0; }
+
+/* Callout / well — highlighted box for asides or pull-quotes */
+.callout {
+  background: var(--bg-soft);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 0.9rem 1.2rem;
+  margin: 1.7rem 0;
+}
+.callout > :first-child { margin-top: 0; }
+.callout > :last-child { margin-bottom: 0; }
+
+/* Accent variant — warm tint + accent bar, adapts to theme */
+.callout.accent {
+  background: color-mix(in srgb, var(--accent) 9%, var(--bg));
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--rule));
+  border-left: 3px solid var(--accent);
+}
 
 /* Horizontal rule — asterism */
 hr {
@@ -383,6 +403,11 @@ th { font-weight: 600; }
   letter-spacing: -0.01em;
   color: var(--text);
   margin: 0;
+}
+.home-intro .name { color: var(--text-soft); }
+.home-intro .code-inline {
+  color: var(--text-soft);
+  font-size: 0.78em;
 }
 .home-about { margin-top: 2rem; }
 
