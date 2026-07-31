@@ -60,7 +60,7 @@ When you exit a planning/reflecting session, it goes back to the "Do" screen.
 
 <details markdown=1>
 <summary markdown=1>
-#### **Plan**
+### **Plan**
 </summary>
 
 You can add and edit tasks, in natural language, like:
@@ -86,7 +86,7 @@ It can also just comment.
 
 <details markdown=1>
 <summary markdown=1>
-#### **Do**
+### **Do**
 </summary>
 
 There's a screen that tells you what to do.  You can either select Done or Skip.
@@ -105,7 +105,7 @@ If you "Skip", which is by default discouraged, you can/should enter a justifica
 
 <details markdown=1>
 <summary markdown=1>
-#### **Reflect**
+### **Reflect**
 </summary>
 
 
