@@ -7,13 +7,15 @@
 
 # Site settings
 title: Jeff Wu
-email: hi@wuthejeff.com
 description: >
   Personal website of Jeff Wu
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wuthejeff.com/" # the base hostname & protocol for your site
+
 twitter_username:
+email: hi@wuthejeff.com
 github_username: wuthefwasthat
+signal_username: wthej.01
 
 # Build settings
 markdown: kramdown
